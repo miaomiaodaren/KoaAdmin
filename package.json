@@ -18,5 +18,10 @@
   "homepage": "https://github.com/miaomiaodaren/KoaAdmin#readme",
   "dependencies": {
     "koa": "^2.5.1"
+  },
+  "devDependencies": {
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2"
   }
 }
