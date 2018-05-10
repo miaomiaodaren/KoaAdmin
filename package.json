@@ -4,7 +4,9 @@
   "description": "first bolad",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,8 +22,13 @@
     "koa": "^2.5.1"
   },
   "devDependencies": {
+    "@types/mongoose": "^5.0.13",
+    "@types/node": "^10.0.6",
     "koa-bodyparser": "^4.2.0",
     "koa-router": "^7.4.0",
-    "koa-static": "^4.0.2"
+    "koa-static": "^4.0.2",
+    "mongoose": "^5.0.18",
+    "ts-node": "^6.0.3",
+    "typescript": "^2.8.3"
   }
 }
