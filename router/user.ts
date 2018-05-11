@@ -7,5 +7,6 @@ router.get('/', async(ctx, next) => {
 });
 
 router.get('/userList', User.GetUserList);
+router.post('/addUser', User.addUser);
 
 export default router
