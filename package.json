@@ -4,7 +4,7 @@
   "description": "first bolad",
   "main": "app.js",
   "scripts": {
-    "start": "ts-node app.ts",
+    "start": "nodemon --exec ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
@@ -24,6 +24,10 @@
   "devDependencies": {
     "@types/mongoose": "^5.0.13",
     "@types/node": "^10.0.6",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
     "koa-bodyparser": "^4.2.0",
     "koa-router": "^7.4.0",
     "koa-static": "^4.0.2",

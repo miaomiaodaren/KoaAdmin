@@ -22,6 +22,11 @@ app.use(async(ctx, next) => {
 
 app.use(route.routes()).use(route.allowedMethods())
 
+app.use(async (ctx, next) => {
+    console.info('22222222');
+})
+
+
 app.listen(3003, () => {
     console.info('[demo] start-quick is starting at port 3003')
 })
