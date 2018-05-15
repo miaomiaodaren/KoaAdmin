@@ -1,9 +1,9 @@
 import { UserModel } from '../model/index';
-import { isEmptyObject } from '../utils/index';
+import { isEmptyObject, handleError, handleSuccess } from '../utils/index';
 
-class UserController {
+export default class UserController {
     constructor() {}
-    async GetUserList(ctx, next) {
+    public static async GetUserList(ctx, next) {
         const method = ctx.method, param = method === "GET" ? ctx.query : ctx.request.body;
         let params = {};
         if(!isEmptyObject(param)) {
@@ -23,7 +23,7 @@ class UserController {
         }
     }
 
-    async addUser(ctx, next) {
+    public static async addUser(ctx, next) {
         const method = ctx.method, param = method === "GET" ? ctx.query : ctx.request.body;
         const {name, psw, isAdmin, _id} = param;
         let hasUser = !!name ? await UserModel.find({name: name}, {'_id': 1, 'name': 1}) : void 0;
@@ -31,39 +31,27 @@ class UserController {
             if (hasUser && hasUser.length) {
                 const info = await UserModel.update({'_id': _id}, {$set: {'name': name, 'isAdmin': isAdmin}});
                 if(info) {
-                    ctx.body = {
-                        statue: 'success',
-                        message: '更新用户成功！',
-                    }
+                    handleSuccess({ctx, message:'更新用户成功！'})
                 }
             } else {
-                ctx.body = {
-                    state: 'error',
-                    message: '更新用户不存在！',
-                }
+                handleError({ctx, message:'更新用户不存在！'})
                 return false
             }
         } else {
             if(hasUser && hasUser.length) {
-                ctx.body = {
-                    statue: 'error',
-                    message: '用户名已存在！'
-                }
+                handleError({ctx, message:'用户名已存在！'})
                 return false
             } else if(!psw) {
-                ctx.body = {
-                    statue: 'error',
-                    message: '密码不能为空'
-                }
+                handleError({ctx, message:'密码不能为空'})
                 return false
             }
             const user = new UserModel({name, psw, isAdmin});
             const addusers = user.save();
-            ctx.body = addusers ? { statue: 'success', message: '注册成功' } : { statue: 'error', message: '注册失败' }
+            ctx.body = addusers ? handleSuccess({ctx, message:'注册成功'}) : handleError({ctx, message:'注册失败'})
         }
     }
 
-    async RemoveUser(ctx, next) {
+    public static async RemoveUser(ctx, next) {
         const { id } = ctx.request.body;
         if(id) {
             try {
@@ -71,30 +59,21 @@ class UserController {
                 if(hasUser) {
                     let rmUser = await UserModel.remove({_id: id});
                     if(rmUser) {
-                        ctx.body = {
-                            statue: 'success',
-                            message: '用户删除成功'
-                        }
+                        handleSuccess({ctx, message:'用户删除成功'})
                     }
                 } else {
-                    ctx.body = {
-                        statue: 'error',
-                        message: '用户不存在'
-                    }
+                    handleError({ctx, message:'用户不存在'})
+                    return false
                 }
             } catch(err) {
-                ctx.body = {
-                    statue: 'error',
-                    message: err
-                }
+                handleError({ctx, err})
+                return false
             }
         } else {
-            ctx.body = {
-                statue: 'error',
-                message: '缺少必要参数',
-            }
+            handleError({ctx, message: '缺少必要参数'})
+            return false
         }
     }
 }
 
-export default new UserController()
+
