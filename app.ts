@@ -22,15 +22,18 @@ app.use(interceptor);
 app.use(async(ctx, next) => {
     console.info('is-first');
     await next()
+    console.info(4);
 })
 
 app.use(async (ctx, next) => {
     try {
+        console.info('3')
         await next()
+        console.info('wo要回来的', ctx.body, ctx.status, ctx.url);
+        if (ctx.status === 404 || ctx.status === 405) ctx.body = { code: 0, message: '无效的api请求'}
     } catch (error) {
         ctx.body = { code: 0, message: '服务器内部错误' }
     }
-    if (ctx.status === 404 || ctx.status === 405) ctx.body = { code: 0, message: '无效的api请求'}
 })
 
 app.use(route.routes()).use(route.allowedMethods())

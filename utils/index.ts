@@ -21,3 +21,14 @@ export const isEmptyObject = (obj: any) => {
     }
     return true;
 }
+
+
+export const getParamsDec = function(target, name, descriptor) {
+    let oldValue = descriptor.value;
+    descriptor.value = function() {
+        const rctx = arguments && arguments[0];
+        const method = rctx.method, param = method === "GET" ? rctx.query : rctx.request.body;
+        oldValue.apply(this, [...arguments, param]);
+    }
+    return descriptor
+}

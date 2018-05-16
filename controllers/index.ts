@@ -1,5 +1,9 @@
 import User from './user';
+import Blog from './blog';
+import Type from './type';
 
 export {
-    User
+    User,
+    Blog,
+    Type
 }

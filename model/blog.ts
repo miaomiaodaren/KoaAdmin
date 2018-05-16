@@ -13,4 +13,4 @@ const BlogSchema: Schema = new Schema({
     content: String,
     addtime: String,
 });
-export const BlogModel: Model<Blog> = model('Blog', BlogSchema)
+export const BlogModel: Model<Blog> = model('News', BlogSchema)
