@@ -3,7 +3,8 @@ const router = new Router();
 import { Blog } from '../controllers/index';
 
 router.get('/blogList', Blog.GetBlogList);
-router.get('/types')
+router.post('/addBlog', Blog.AddBlog);
+router.post('/delBlog', Blog.DelBlog);
 
 
 export default router
