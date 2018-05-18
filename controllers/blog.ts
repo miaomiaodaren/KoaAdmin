@@ -7,8 +7,14 @@ export default class BlogController {
     public static async GetBlogList(ctx, next) {
         try{
             const method = ctx.method, param = method === "GET" ? ctx.query : ctx.request.body;
-            const [count, res] = await Promise.all([BlogModel.find({}).count(), BlogModel.find({...param}).sort({_id: -1})]);
-            handleSuccess({ctx, message: '成功!', result: {count, data: res}})
+            const { title } = param; 
+            if(title) {
+                const [count, res] = await Promise.all([BlogModel.find({$or: [{title: {$regex: title, $options: "$i"}}]}).count(), BlogModel.find({$or: [{title: {$regex: title, $options: "$i"}}]}).sort({_id: -1})]);
+                handleSuccess({ctx, message: '成功!', result: {count, data: res}})
+            } else {
+                const [count, res] = await Promise.all([BlogModel.find({...param}).count(), BlogModel.find({...param}).sort({_id: -1})]);
+                handleSuccess({ctx, message: '成功!', result: {count, data: res}})
+            }
         } catch(err) {
             handleError({ctx, err})
         }    
