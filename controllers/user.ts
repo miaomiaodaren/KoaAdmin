@@ -74,6 +74,20 @@ export default class UserController {
             return false
         }
     }
+
+    public static async Login(ctx, next) {
+        const {userName, passWord} = ctx.request.body;
+        try{
+            const dataInfo = await UserModel.findOne({name: userName, psw: passWord})
+            if(dataInfo) {
+                handleSuccess({ctx, message:'用户删除成功'})
+            } else {
+                handleError({ctx, message:'账号密码出错'})
+            }
+        } catch(err) {
+            handleError({ctx, message: '缺少必要参数', err})
+        }
+    }
 }
 
 
