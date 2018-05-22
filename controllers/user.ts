@@ -80,7 +80,7 @@ export default class UserController {
         try{
             const dataInfo = await UserModel.findOne({name: userName, psw: passWord})
             if(dataInfo) {
-                handleSuccess({ctx, message:'用户删除成功'})
+                handleSuccess({ctx, message:'用户登录成功'})
             } else {
                 handleError({ctx, message:'账号密码出错'})
             }
