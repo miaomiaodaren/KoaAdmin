@@ -1,0 +1,143 @@
+[2018-06-08T10:00:22.277] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 18
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功"}
+*************** response log end ***************
+
+[2018-06-08T10:12:33.681] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 21
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功"}
+*************** response log end ***************
+
+[2018-06-08T10:34:51.237] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 38
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功"}
+*************** response log end ***************
+
+[2018-06-08T10:34:51.292] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 32
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功"}
+*************** response log end ***************
+
+[2018-06-08T10:34:51.330] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 27
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功"}
+*************** response log end ***************
+
+[2018-06-08T10:37:40.485] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 18
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功"}
+*************** response log end ***************
+
+[2018-06-08T10:37:40.505] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 6
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功"}
+*************** response log end ***************
+
+[2018-06-08T10:37:40.626] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 4
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功"}
+*************** response log end ***************
+
+[2018-06-08T10:40:13.750] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 18
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功"}
+*************** response log end ***************
+
+[2018-06-08T10:40:13.774] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 8
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功"}
+*************** response log end ***************
+
+[2018-06-08T10:40:13.977] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 7
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功"}
+*************** response log end ***************
+

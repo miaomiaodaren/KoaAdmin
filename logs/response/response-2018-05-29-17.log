@@ -1,0 +1,432 @@
+[2018-05-29T17:05:02.571] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /blog/blogList?_id=5b0cb8b81c73d758c077230c
+request client ip:  ::ffff:127.0.0.1
+request query:  {"_id":"5b0cb8b81c73d758c077230c"}
+response time: 4
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"count":1,"data":[{"_id":"5b0cb8b81c73d758c077230c","title":"测试","type":"javascript","content":"<p>312312312</p>\n","addtime":"Tue May 29 2018 14:58:55 GMT+0800 (中国标准时间)","__v":0}]}}
+*************** response log end ***************
+
+[2018-05-29T17:05:02.576] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 7
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"res":[{"sorts":0,"_id":"5971c8f516e6023090c046c8","name":"html","__v":0},{"sorts":0,"_id":"5971cb1016e6023090c046c9","name":"css","__v":0},{"sorts":0,"_id":"5971cc7b16e6023090c046ca","name":"javascript","__v":0},{"sorts":0,"_id":"5971ccc316e6023090c046cb","name":"vue","__v":0},{"sorts":4,"_id":"59ddd4ed06dc7a1a4ca67b18","name":"node","__v":0},{"sorts":5,"_id":"59f9737f2e935739f8dd7519","name":"Angular","__v":0},{"sorts":6,"_id":"5a03c386f1f3bd3938300e00","name":"正则表达式","__v":0},{"sorts":0,"_id":"5a5d70fc7481243878790c91","name":"react","__v":0},{"sorts":0,"_id":"5a5d71217481243878790c92","name":"webpack","__v":0},{"sorts":0,"_id":"5a5d716c7481243878790c93","name":"canvas","__v":0},{"sorts":0,"_id":"5a5d721e7481243878790c94","name":"svg","__v":0},{"sorts":0,"_id":"5a683cf3b80b41347ccbc069","name":"ajax","__v":0},{"sorts":0,"_id":"5a9cbd76716c7a3348cf6f2f","name":"mongodb","__v":0}],"count":13}}
+*************** response log end ***************
+
+[2018-05-29T17:06:53.394] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /blog/blogList?_id=5b0cb8b81c73d758c077230c
+request client ip:  ::ffff:127.0.0.1
+request query:  {"_id":"5b0cb8b81c73d758c077230c"}
+response time: 10
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"count":1,"data":[{"_id":"5b0cb8b81c73d758c077230c","title":"测试","type":"javascript","content":"<p>312312312</p>\n","addtime":"Tue May 29 2018 14:58:55 GMT+0800 (中国标准时间)","__v":0}]}}
+*************** response log end ***************
+
+[2018-05-29T17:06:53.399] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 10
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"res":[{"sorts":0,"_id":"5971c8f516e6023090c046c8","name":"html","__v":0},{"sorts":0,"_id":"5971cb1016e6023090c046c9","name":"css","__v":0},{"sorts":0,"_id":"5971cc7b16e6023090c046ca","name":"javascript","__v":0},{"sorts":0,"_id":"5971ccc316e6023090c046cb","name":"vue","__v":0},{"sorts":4,"_id":"59ddd4ed06dc7a1a4ca67b18","name":"node","__v":0},{"sorts":5,"_id":"59f9737f2e935739f8dd7519","name":"Angular","__v":0},{"sorts":6,"_id":"5a03c386f1f3bd3938300e00","name":"正则表达式","__v":0},{"sorts":0,"_id":"5a5d70fc7481243878790c91","name":"react","__v":0},{"sorts":0,"_id":"5a5d71217481243878790c92","name":"webpack","__v":0},{"sorts":0,"_id":"5a5d716c7481243878790c93","name":"canvas","__v":0},{"sorts":0,"_id":"5a5d721e7481243878790c94","name":"svg","__v":0},{"sorts":0,"_id":"5a683cf3b80b41347ccbc069","name":"ajax","__v":0},{"sorts":0,"_id":"5a9cbd76716c7a3348cf6f2f","name":"mongodb","__v":0}],"count":13}}
+*************** response log end ***************
+
+[2018-05-29T17:08:37.798] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /blog/blogList?_id=5ac1d243e6699f2484af6379
+request client ip:  ::ffff:127.0.0.1
+request query:  {"_id":"5ac1d243e6699f2484af6379"}
+response time: 66
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"count":1,"data":[{"_id":"5ac1d243e6699f2484af6379","title":"js 事件模型","type":"javascript","content":"<p>DOM事件模型主要分为三个过程<br>\n<br>\n1.事件捕获  2.事件冒泡<br>\n<br>\n事件捕获的顺序是从外面到里面也就是是从   document-&gt;html-&gt;body-&gt;外面的div-&gt;里面的div<br>\n<br>\n而事件冒泡是从里面到外面 也就是  里面的div-&gt;外面的div-&gt; body -&gt; html -&gt; document&nbsp;</p>\n<p>执行的话，应该是先触发 min  -&gt; max<br>\n<br>\naddEventListener 可以接受三个函数，第三个函数默认为false， 意思是在冒泡阶段执行，如果在第三个设置了true，</p>\n<p>removeEventListener 与 addEventListener 相反，是用来 事件移除监听函数的 <br>\n<br>\n则是在捕获阶段就开始执行，则执行顺序应该是从外到里面了。<br>\n<br>\n如果要阻止事件冒泡，需要 使用  event.stopPropagation();  则不会再向上冒泡了</p>\n<p>&nbsp;当一个事件被触发时，会创建一个事件对象(Event Object), 这个对象里面包含了与该事件相关的属性或者方法。该对象会作为第一个参数传递给监听函数。&nbsp;</p>\n<p>type用于获取事件类型</p>\n<p>target获取事件目标</p>\n<p>stopPropagation()阻止事件冒泡</p>\n<p>preventDefault()阻止事件默认行为</p>\n<p>stopPropagation  与  preventDefault 的区别</p>\n<p>stopPropagation  是 阻止事件向上冒泡，但是本身的事件还是会触发的。</p>\n<p>preventDefault 是阻止默认事件的触发，也就是本事的事件不会触发，但是还是会触发向上冒泡。执行上级的事件</p>\n<p>return false 则是相当于同时执行了二个上面的方法，即不执行默认事件，也不会执行向上冒泡。</p>\n","addtime":"Mon Apr 02 2018 14:56:51 GMT+0800 (中国标准时间)","__v":0}]}}
+*************** response log end ***************
+
+[2018-05-29T17:08:37.801] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 67
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"res":[{"sorts":0,"_id":"5971c8f516e6023090c046c8","name":"html","__v":0},{"sorts":0,"_id":"5971cb1016e6023090c046c9","name":"css","__v":0},{"sorts":0,"_id":"5971cc7b16e6023090c046ca","name":"javascript","__v":0},{"sorts":0,"_id":"5971ccc316e6023090c046cb","name":"vue","__v":0},{"sorts":4,"_id":"59ddd4ed06dc7a1a4ca67b18","name":"node","__v":0},{"sorts":5,"_id":"59f9737f2e935739f8dd7519","name":"Angular","__v":0},{"sorts":6,"_id":"5a03c386f1f3bd3938300e00","name":"正则表达式","__v":0},{"sorts":0,"_id":"5a5d70fc7481243878790c91","name":"react","__v":0},{"sorts":0,"_id":"5a5d71217481243878790c92","name":"webpack","__v":0},{"sorts":0,"_id":"5a5d716c7481243878790c93","name":"canvas","__v":0},{"sorts":0,"_id":"5a5d721e7481243878790c94","name":"svg","__v":0},{"sorts":0,"_id":"5a683cf3b80b41347ccbc069","name":"ajax","__v":0},{"sorts":0,"_id":"5a9cbd76716c7a3348cf6f2f","name":"mongodb","__v":0}],"count":13}}
+*************** response log end ***************
+
+[2018-05-29T17:08:39.303] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /blog/blogList?_id=5b0cb8b81c73d758c077230c
+request client ip:  ::ffff:127.0.0.1
+request query:  {"_id":"5b0cb8b81c73d758c077230c"}
+response time: 3
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"count":1,"data":[{"_id":"5b0cb8b81c73d758c077230c","title":"测试","type":"javascript","content":"<p>312312312</p>\n","addtime":"Tue May 29 2018 14:58:55 GMT+0800 (中国标准时间)","__v":0}]}}
+*************** response log end ***************
+
+[2018-05-29T17:08:39.306] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"res":[{"sorts":0,"_id":"5971c8f516e6023090c046c8","name":"html","__v":0},{"sorts":0,"_id":"5971cb1016e6023090c046c9","name":"css","__v":0},{"sorts":0,"_id":"5971cc7b16e6023090c046ca","name":"javascript","__v":0},{"sorts":0,"_id":"5971ccc316e6023090c046cb","name":"vue","__v":0},{"sorts":4,"_id":"59ddd4ed06dc7a1a4ca67b18","name":"node","__v":0},{"sorts":5,"_id":"59f9737f2e935739f8dd7519","name":"Angular","__v":0},{"sorts":6,"_id":"5a03c386f1f3bd3938300e00","name":"正则表达式","__v":0},{"sorts":0,"_id":"5a5d70fc7481243878790c91","name":"react","__v":0},{"sorts":0,"_id":"5a5d71217481243878790c92","name":"webpack","__v":0},{"sorts":0,"_id":"5a5d716c7481243878790c93","name":"canvas","__v":0},{"sorts":0,"_id":"5a5d721e7481243878790c94","name":"svg","__v":0},{"sorts":0,"_id":"5a683cf3b80b41347ccbc069","name":"ajax","__v":0},{"sorts":0,"_id":"5a9cbd76716c7a3348cf6f2f","name":"mongodb","__v":0}],"count":13}}
+*************** response log end ***************
+
+[2018-05-29T17:12:09.387] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /blog/blogList?_id=5b0cb8b81c73d758c077230c
+request client ip:  ::ffff:127.0.0.1
+request query:  {"_id":"5b0cb8b81c73d758c077230c"}
+response time: 3
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"count":1,"data":[{"_id":"5b0cb8b81c73d758c077230c","title":"测试","type":"javascript","content":"<p>312312312</p>\n","addtime":"Tue May 29 2018 14:58:55 GMT+0800 (中国标准时间)","__v":0}]}}
+*************** response log end ***************
+
+[2018-05-29T17:12:09.390] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"res":[{"sorts":0,"_id":"5971c8f516e6023090c046c8","name":"html","__v":0},{"sorts":0,"_id":"5971cb1016e6023090c046c9","name":"css","__v":0},{"sorts":0,"_id":"5971cc7b16e6023090c046ca","name":"javascript","__v":0},{"sorts":0,"_id":"5971ccc316e6023090c046cb","name":"vue","__v":0},{"sorts":4,"_id":"59ddd4ed06dc7a1a4ca67b18","name":"node","__v":0},{"sorts":5,"_id":"59f9737f2e935739f8dd7519","name":"Angular","__v":0},{"sorts":6,"_id":"5a03c386f1f3bd3938300e00","name":"正则表达式","__v":0},{"sorts":0,"_id":"5a5d70fc7481243878790c91","name":"react","__v":0},{"sorts":0,"_id":"5a5d71217481243878790c92","name":"webpack","__v":0},{"sorts":0,"_id":"5a5d716c7481243878790c93","name":"canvas","__v":0},{"sorts":0,"_id":"5a5d721e7481243878790c94","name":"svg","__v":0},{"sorts":0,"_id":"5a683cf3b80b41347ccbc069","name":"ajax","__v":0},{"sorts":0,"_id":"5a9cbd76716c7a3348cf6f2f","name":"mongodb","__v":0}],"count":13}}
+*************** response log end ***************
+
+[2018-05-29T17:12:16.786] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /blog/blogList?_id=5b0cb8b81c73d758c077230c
+request client ip:  ::ffff:127.0.0.1
+request query:  {"_id":"5b0cb8b81c73d758c077230c"}
+response time: 3
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"count":1,"data":[{"_id":"5b0cb8b81c73d758c077230c","title":"测试","type":"javascript","content":"<p>312312312</p>\n","addtime":"Tue May 29 2018 14:58:55 GMT+0800 (中国标准时间)","__v":0}]}}
+*************** response log end ***************
+
+[2018-05-29T17:12:16.814] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 14
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"res":[{"sorts":0,"_id":"5971c8f516e6023090c046c8","name":"html","__v":0},{"sorts":0,"_id":"5971cb1016e6023090c046c9","name":"css","__v":0},{"sorts":0,"_id":"5971cc7b16e6023090c046ca","name":"javascript","__v":0},{"sorts":0,"_id":"5971ccc316e6023090c046cb","name":"vue","__v":0},{"sorts":4,"_id":"59ddd4ed06dc7a1a4ca67b18","name":"node","__v":0},{"sorts":5,"_id":"59f9737f2e935739f8dd7519","name":"Angular","__v":0},{"sorts":6,"_id":"5a03c386f1f3bd3938300e00","name":"正则表达式","__v":0},{"sorts":0,"_id":"5a5d70fc7481243878790c91","name":"react","__v":0},{"sorts":0,"_id":"5a5d71217481243878790c92","name":"webpack","__v":0},{"sorts":0,"_id":"5a5d716c7481243878790c93","name":"canvas","__v":0},{"sorts":0,"_id":"5a5d721e7481243878790c94","name":"svg","__v":0},{"sorts":0,"_id":"5a683cf3b80b41347ccbc069","name":"ajax","__v":0},{"sorts":0,"_id":"5a9cbd76716c7a3348cf6f2f","name":"mongodb","__v":0}],"count":13}}
+*************** response log end ***************
+
+[2018-05-29T17:12:24.807] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /blog/blogList?_id=5b0cb8b81c73d758c077230c
+request client ip:  ::ffff:127.0.0.1
+request query:  {"_id":"5b0cb8b81c73d758c077230c"}
+response time: 14
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"count":1,"data":[{"_id":"5b0cb8b81c73d758c077230c","title":"测试","type":"javascript","content":"<p>312312312</p>\n","addtime":"Tue May 29 2018 14:58:55 GMT+0800 (中国标准时间)","__v":0}]}}
+*************** response log end ***************
+
+[2018-05-29T17:12:24.809] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 14
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"res":[{"sorts":0,"_id":"5971c8f516e6023090c046c8","name":"html","__v":0},{"sorts":0,"_id":"5971cb1016e6023090c046c9","name":"css","__v":0},{"sorts":0,"_id":"5971cc7b16e6023090c046ca","name":"javascript","__v":0},{"sorts":0,"_id":"5971ccc316e6023090c046cb","name":"vue","__v":0},{"sorts":4,"_id":"59ddd4ed06dc7a1a4ca67b18","name":"node","__v":0},{"sorts":5,"_id":"59f9737f2e935739f8dd7519","name":"Angular","__v":0},{"sorts":6,"_id":"5a03c386f1f3bd3938300e00","name":"正则表达式","__v":0},{"sorts":0,"_id":"5a5d70fc7481243878790c91","name":"react","__v":0},{"sorts":0,"_id":"5a5d71217481243878790c92","name":"webpack","__v":0},{"sorts":0,"_id":"5a5d716c7481243878790c93","name":"canvas","__v":0},{"sorts":0,"_id":"5a5d721e7481243878790c94","name":"svg","__v":0},{"sorts":0,"_id":"5a683cf3b80b41347ccbc069","name":"ajax","__v":0},{"sorts":0,"_id":"5a9cbd76716c7a3348cf6f2f","name":"mongodb","__v":0}],"count":13}}
+*************** response log end ***************
+
+[2018-05-29T17:16:21.114] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /blog/blogList?_id=5b0cb8b81c73d758c077230c
+request client ip:  ::ffff:127.0.0.1
+request query:  {"_id":"5b0cb8b81c73d758c077230c"}
+response time: 5
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"count":1,"data":[{"_id":"5b0cb8b81c73d758c077230c","title":"测试","type":"javascript","content":"<p>312312312</p>\n","addtime":"Tue May 29 2018 14:58:55 GMT+0800 (中国标准时间)","__v":0}]}}
+*************** response log end ***************
+
+[2018-05-29T17:16:21.117] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"res":[{"sorts":0,"_id":"5971c8f516e6023090c046c8","name":"html","__v":0},{"sorts":0,"_id":"5971cb1016e6023090c046c9","name":"css","__v":0},{"sorts":0,"_id":"5971cc7b16e6023090c046ca","name":"javascript","__v":0},{"sorts":0,"_id":"5971ccc316e6023090c046cb","name":"vue","__v":0},{"sorts":4,"_id":"59ddd4ed06dc7a1a4ca67b18","name":"node","__v":0},{"sorts":5,"_id":"59f9737f2e935739f8dd7519","name":"Angular","__v":0},{"sorts":6,"_id":"5a03c386f1f3bd3938300e00","name":"正则表达式","__v":0},{"sorts":0,"_id":"5a5d70fc7481243878790c91","name":"react","__v":0},{"sorts":0,"_id":"5a5d71217481243878790c92","name":"webpack","__v":0},{"sorts":0,"_id":"5a5d716c7481243878790c93","name":"canvas","__v":0},{"sorts":0,"_id":"5a5d721e7481243878790c94","name":"svg","__v":0},{"sorts":0,"_id":"5a683cf3b80b41347ccbc069","name":"ajax","__v":0},{"sorts":0,"_id":"5a9cbd76716c7a3348cf6f2f","name":"mongodb","__v":0}],"count":13}}
+*************** response log end ***************
+
+[2018-05-29T17:17:26.025] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /blog/blogList?_id=5b0cb8b81c73d758c077230c
+request client ip:  ::ffff:127.0.0.1
+request query:  {"_id":"5b0cb8b81c73d758c077230c"}
+response time: 3
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"count":1,"data":[{"_id":"5b0cb8b81c73d758c077230c","title":"测试","type":"javascript","content":"<p>312312312</p>\n","addtime":"Tue May 29 2018 14:58:55 GMT+0800 (中国标准时间)","__v":0}]}}
+*************** response log end ***************
+
+[2018-05-29T17:17:26.042] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 9
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"res":[{"sorts":0,"_id":"5971c8f516e6023090c046c8","name":"html","__v":0},{"sorts":0,"_id":"5971cb1016e6023090c046c9","name":"css","__v":0},{"sorts":0,"_id":"5971cc7b16e6023090c046ca","name":"javascript","__v":0},{"sorts":0,"_id":"5971ccc316e6023090c046cb","name":"vue","__v":0},{"sorts":4,"_id":"59ddd4ed06dc7a1a4ca67b18","name":"node","__v":0},{"sorts":5,"_id":"59f9737f2e935739f8dd7519","name":"Angular","__v":0},{"sorts":6,"_id":"5a03c386f1f3bd3938300e00","name":"正则表达式","__v":0},{"sorts":0,"_id":"5a5d70fc7481243878790c91","name":"react","__v":0},{"sorts":0,"_id":"5a5d71217481243878790c92","name":"webpack","__v":0},{"sorts":0,"_id":"5a5d716c7481243878790c93","name":"canvas","__v":0},{"sorts":0,"_id":"5a5d721e7481243878790c94","name":"svg","__v":0},{"sorts":0,"_id":"5a683cf3b80b41347ccbc069","name":"ajax","__v":0},{"sorts":0,"_id":"5a9cbd76716c7a3348cf6f2f","name":"mongodb","__v":0}],"count":13}}
+*************** response log end ***************
+
+[2018-05-29T17:18:24.196] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /blog/blogList?_id=5b0cb8b81c73d758c077230c
+request client ip:  ::ffff:127.0.0.1
+request query:  {"_id":"5b0cb8b81c73d758c077230c"}
+response time: 13
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"count":1,"data":[{"_id":"5b0cb8b81c73d758c077230c","title":"测试","type":"javascript","content":"<p>312312312</p>\n","addtime":"Tue May 29 2018 14:58:55 GMT+0800 (中国标准时间)","__v":0}]}}
+*************** response log end ***************
+
+[2018-05-29T17:18:24.199] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 13
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"res":[{"sorts":0,"_id":"5971c8f516e6023090c046c8","name":"html","__v":0},{"sorts":0,"_id":"5971cb1016e6023090c046c9","name":"css","__v":0},{"sorts":0,"_id":"5971cc7b16e6023090c046ca","name":"javascript","__v":0},{"sorts":0,"_id":"5971ccc316e6023090c046cb","name":"vue","__v":0},{"sorts":4,"_id":"59ddd4ed06dc7a1a4ca67b18","name":"node","__v":0},{"sorts":5,"_id":"59f9737f2e935739f8dd7519","name":"Angular","__v":0},{"sorts":6,"_id":"5a03c386f1f3bd3938300e00","name":"正则表达式","__v":0},{"sorts":0,"_id":"5a5d70fc7481243878790c91","name":"react","__v":0},{"sorts":0,"_id":"5a5d71217481243878790c92","name":"webpack","__v":0},{"sorts":0,"_id":"5a5d716c7481243878790c93","name":"canvas","__v":0},{"sorts":0,"_id":"5a5d721e7481243878790c94","name":"svg","__v":0},{"sorts":0,"_id":"5a683cf3b80b41347ccbc069","name":"ajax","__v":0},{"sorts":0,"_id":"5a9cbd76716c7a3348cf6f2f","name":"mongodb","__v":0}],"count":13}}
+*************** response log end ***************
+
+[2018-05-29T17:19:58.600] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /blog/blogList?_id=5b0cb8b81c73d758c077230c
+request client ip:  ::ffff:127.0.0.1
+request query:  {"_id":"5b0cb8b81c73d758c077230c"}
+response time: 4
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"count":1,"data":[{"_id":"5b0cb8b81c73d758c077230c","title":"测试","type":"javascript","content":"<p>312312312</p>\n","addtime":"Tue May 29 2018 14:58:55 GMT+0800 (中国标准时间)","__v":0}]}}
+*************** response log end ***************
+
+[2018-05-29T17:19:58.603] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 5
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"res":[{"sorts":0,"_id":"5971c8f516e6023090c046c8","name":"html","__v":0},{"sorts":0,"_id":"5971cb1016e6023090c046c9","name":"css","__v":0},{"sorts":0,"_id":"5971cc7b16e6023090c046ca","name":"javascript","__v":0},{"sorts":0,"_id":"5971ccc316e6023090c046cb","name":"vue","__v":0},{"sorts":4,"_id":"59ddd4ed06dc7a1a4ca67b18","name":"node","__v":0},{"sorts":5,"_id":"59f9737f2e935739f8dd7519","name":"Angular","__v":0},{"sorts":6,"_id":"5a03c386f1f3bd3938300e00","name":"正则表达式","__v":0},{"sorts":0,"_id":"5a5d70fc7481243878790c91","name":"react","__v":0},{"sorts":0,"_id":"5a5d71217481243878790c92","name":"webpack","__v":0},{"sorts":0,"_id":"5a5d716c7481243878790c93","name":"canvas","__v":0},{"sorts":0,"_id":"5a5d721e7481243878790c94","name":"svg","__v":0},{"sorts":0,"_id":"5a683cf3b80b41347ccbc069","name":"ajax","__v":0},{"sorts":0,"_id":"5a9cbd76716c7a3348cf6f2f","name":"mongodb","__v":0}],"count":13}}
+*************** response log end ***************
+
+[2018-05-29T17:22:27.650] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /blog/blogList?_id=5b0cb8b81c73d758c077230c
+request client ip:  ::ffff:127.0.0.1
+request query:  {"_id":"5b0cb8b81c73d758c077230c"}
+response time: 3
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"count":1,"data":[{"_id":"5b0cb8b81c73d758c077230c","title":"测试","type":"javascript","content":"<p>312312312</p>\n","addtime":"Tue May 29 2018 14:58:55 GMT+0800 (中国标准时间)","__v":0}]}}
+*************** response log end ***************
+
+[2018-05-29T17:22:27.682] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 16
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"res":[{"sorts":0,"_id":"5971c8f516e6023090c046c8","name":"html","__v":0},{"sorts":0,"_id":"5971cb1016e6023090c046c9","name":"css","__v":0},{"sorts":0,"_id":"5971cc7b16e6023090c046ca","name":"javascript","__v":0},{"sorts":0,"_id":"5971ccc316e6023090c046cb","name":"vue","__v":0},{"sorts":4,"_id":"59ddd4ed06dc7a1a4ca67b18","name":"node","__v":0},{"sorts":5,"_id":"59f9737f2e935739f8dd7519","name":"Angular","__v":0},{"sorts":6,"_id":"5a03c386f1f3bd3938300e00","name":"正则表达式","__v":0},{"sorts":0,"_id":"5a5d70fc7481243878790c91","name":"react","__v":0},{"sorts":0,"_id":"5a5d71217481243878790c92","name":"webpack","__v":0},{"sorts":0,"_id":"5a5d716c7481243878790c93","name":"canvas","__v":0},{"sorts":0,"_id":"5a5d721e7481243878790c94","name":"svg","__v":0},{"sorts":0,"_id":"5a683cf3b80b41347ccbc069","name":"ajax","__v":0},{"sorts":0,"_id":"5a9cbd76716c7a3348cf6f2f","name":"mongodb","__v":0}],"count":13}}
+*************** response log end ***************
+
+[2018-05-29T17:30:09.362] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /blog/blogList?_id=5b0cb8b81c73d758c077230c
+request client ip:  ::ffff:127.0.0.1
+request query:  {"_id":"5b0cb8b81c73d758c077230c"}
+response time: 4
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"count":1,"data":[{"_id":"5b0cb8b81c73d758c077230c","title":"测试","type":"javascript","content":"<p>312312312</p>\n","addtime":"Tue May 29 2018 14:58:55 GMT+0800 (中国标准时间)","__v":0}]}}
+*************** response log end ***************
+
+[2018-05-29T17:30:09.364] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"res":[{"sorts":0,"_id":"5971c8f516e6023090c046c8","name":"html","__v":0},{"sorts":0,"_id":"5971cb1016e6023090c046c9","name":"css","__v":0},{"sorts":0,"_id":"5971cc7b16e6023090c046ca","name":"javascript","__v":0},{"sorts":0,"_id":"5971ccc316e6023090c046cb","name":"vue","__v":0},{"sorts":4,"_id":"59ddd4ed06dc7a1a4ca67b18","name":"node","__v":0},{"sorts":5,"_id":"59f9737f2e935739f8dd7519","name":"Angular","__v":0},{"sorts":6,"_id":"5a03c386f1f3bd3938300e00","name":"正则表达式","__v":0},{"sorts":0,"_id":"5a5d70fc7481243878790c91","name":"react","__v":0},{"sorts":0,"_id":"5a5d71217481243878790c92","name":"webpack","__v":0},{"sorts":0,"_id":"5a5d716c7481243878790c93","name":"canvas","__v":0},{"sorts":0,"_id":"5a5d721e7481243878790c94","name":"svg","__v":0},{"sorts":0,"_id":"5a683cf3b80b41347ccbc069","name":"ajax","__v":0},{"sorts":0,"_id":"5a9cbd76716c7a3348cf6f2f","name":"mongodb","__v":0}],"count":13}}
+*************** response log end ***************
+
+[2018-05-29T17:33:12.505] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /blog/blogList?_id=5b0cb8b81c73d758c077230c
+request client ip:  ::ffff:127.0.0.1
+request query:  {"_id":"5b0cb8b81c73d758c077230c"}
+response time: 3
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"count":1,"data":[{"_id":"5b0cb8b81c73d758c077230c","title":"测试","type":"javascript","content":"<p>312312312</p>\n","addtime":"Tue May 29 2018 14:58:55 GMT+0800 (中国标准时间)","__v":0}]}}
+*************** response log end ***************
+
+[2018-05-29T17:33:12.511] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 7
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"res":[{"sorts":0,"_id":"5971c8f516e6023090c046c8","name":"html","__v":0},{"sorts":0,"_id":"5971cb1016e6023090c046c9","name":"css","__v":0},{"sorts":0,"_id":"5971cc7b16e6023090c046ca","name":"javascript","__v":0},{"sorts":0,"_id":"5971ccc316e6023090c046cb","name":"vue","__v":0},{"sorts":4,"_id":"59ddd4ed06dc7a1a4ca67b18","name":"node","__v":0},{"sorts":5,"_id":"59f9737f2e935739f8dd7519","name":"Angular","__v":0},{"sorts":6,"_id":"5a03c386f1f3bd3938300e00","name":"正则表达式","__v":0},{"sorts":0,"_id":"5a5d70fc7481243878790c91","name":"react","__v":0},{"sorts":0,"_id":"5a5d71217481243878790c92","name":"webpack","__v":0},{"sorts":0,"_id":"5a5d716c7481243878790c93","name":"canvas","__v":0},{"sorts":0,"_id":"5a5d721e7481243878790c94","name":"svg","__v":0},{"sorts":0,"_id":"5a683cf3b80b41347ccbc069","name":"ajax","__v":0},{"sorts":0,"_id":"5a9cbd76716c7a3348cf6f2f","name":"mongodb","__v":0}],"count":13}}
+*************** response log end ***************
+
+[2018-05-29T17:34:12.200] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /blog/blogList?_id=5b0cb8b81c73d758c077230c
+request client ip:  ::ffff:127.0.0.1
+request query:  {"_id":"5b0cb8b81c73d758c077230c"}
+response time: 6
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"count":1,"data":[{"_id":"5b0cb8b81c73d758c077230c","title":"测试","type":"javascript","content":"<p>312312312</p>\n","addtime":"Tue May 29 2018 14:58:55 GMT+0800 (中国标准时间)","__v":0}]}}
+*************** response log end ***************
+
+[2018-05-29T17:34:12.204] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 8
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"res":[{"sorts":0,"_id":"5971c8f516e6023090c046c8","name":"html","__v":0},{"sorts":0,"_id":"5971cb1016e6023090c046c9","name":"css","__v":0},{"sorts":0,"_id":"5971cc7b16e6023090c046ca","name":"javascript","__v":0},{"sorts":0,"_id":"5971ccc316e6023090c046cb","name":"vue","__v":0},{"sorts":4,"_id":"59ddd4ed06dc7a1a4ca67b18","name":"node","__v":0},{"sorts":5,"_id":"59f9737f2e935739f8dd7519","name":"Angular","__v":0},{"sorts":6,"_id":"5a03c386f1f3bd3938300e00","name":"正则表达式","__v":0},{"sorts":0,"_id":"5a5d70fc7481243878790c91","name":"react","__v":0},{"sorts":0,"_id":"5a5d71217481243878790c92","name":"webpack","__v":0},{"sorts":0,"_id":"5a5d716c7481243878790c93","name":"canvas","__v":0},{"sorts":0,"_id":"5a5d721e7481243878790c94","name":"svg","__v":0},{"sorts":0,"_id":"5a683cf3b80b41347ccbc069","name":"ajax","__v":0},{"sorts":0,"_id":"5a9cbd76716c7a3348cf6f2f","name":"mongodb","__v":0}],"count":13}}
+*************** response log end ***************
+
+[2018-05-29T17:35:35.162] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /blog/blogList?_id=5b0cb8b81c73d758c077230c
+request client ip:  ::ffff:127.0.0.1
+request query:  {"_id":"5b0cb8b81c73d758c077230c"}
+response time: 4
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"count":1,"data":[{"_id":"5b0cb8b81c73d758c077230c","title":"测试","type":"javascript","content":"<p>312312312</p>\n","addtime":"Tue May 29 2018 14:58:55 GMT+0800 (中国标准时间)","__v":0}]}}
+*************** response log end ***************
+
+[2018-05-29T17:35:35.178] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 17
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"res":[{"sorts":0,"_id":"5971c8f516e6023090c046c8","name":"html","__v":0},{"sorts":0,"_id":"5971cb1016e6023090c046c9","name":"css","__v":0},{"sorts":0,"_id":"5971cc7b16e6023090c046ca","name":"javascript","__v":0},{"sorts":0,"_id":"5971ccc316e6023090c046cb","name":"vue","__v":0},{"sorts":4,"_id":"59ddd4ed06dc7a1a4ca67b18","name":"node","__v":0},{"sorts":5,"_id":"59f9737f2e935739f8dd7519","name":"Angular","__v":0},{"sorts":6,"_id":"5a03c386f1f3bd3938300e00","name":"正则表达式","__v":0},{"sorts":0,"_id":"5a5d70fc7481243878790c91","name":"react","__v":0},{"sorts":0,"_id":"5a5d71217481243878790c92","name":"webpack","__v":0},{"sorts":0,"_id":"5a5d716c7481243878790c93","name":"canvas","__v":0},{"sorts":0,"_id":"5a5d721e7481243878790c94","name":"svg","__v":0},{"sorts":0,"_id":"5a683cf3b80b41347ccbc069","name":"ajax","__v":0},{"sorts":0,"_id":"5a9cbd76716c7a3348cf6f2f","name":"mongodb","__v":0}],"count":13}}
+*************** response log end ***************
+
+[2018-05-29T17:38:16.079] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /blog/blogList?_id=5b0cb8b81c73d758c077230c
+request client ip:  ::ffff:127.0.0.1
+request query:  {"_id":"5b0cb8b81c73d758c077230c"}
+response time: 19
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"count":1,"data":[{"_id":"5b0cb8b81c73d758c077230c","title":"测试","type":"javascript","content":"<p>312312312</p>\n","addtime":"Tue May 29 2018 14:58:55 GMT+0800 (中国标准时间)","__v":0}]}}
+*************** response log end ***************
+
+[2018-05-29T17:38:16.086] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 5
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"res":[{"sorts":0,"_id":"5971c8f516e6023090c046c8","name":"html","__v":0},{"sorts":0,"_id":"5971cb1016e6023090c046c9","name":"css","__v":0},{"sorts":0,"_id":"5971cc7b16e6023090c046ca","name":"javascript","__v":0},{"sorts":0,"_id":"5971ccc316e6023090c046cb","name":"vue","__v":0},{"sorts":4,"_id":"59ddd4ed06dc7a1a4ca67b18","name":"node","__v":0},{"sorts":5,"_id":"59f9737f2e935739f8dd7519","name":"Angular","__v":0},{"sorts":6,"_id":"5a03c386f1f3bd3938300e00","name":"正则表达式","__v":0},{"sorts":0,"_id":"5a5d70fc7481243878790c91","name":"react","__v":0},{"sorts":0,"_id":"5a5d71217481243878790c92","name":"webpack","__v":0},{"sorts":0,"_id":"5a5d716c7481243878790c93","name":"canvas","__v":0},{"sorts":0,"_id":"5a5d721e7481243878790c94","name":"svg","__v":0},{"sorts":0,"_id":"5a683cf3b80b41347ccbc069","name":"ajax","__v":0},{"sorts":0,"_id":"5a9cbd76716c7a3348cf6f2f","name":"mongodb","__v":0}],"count":13}}
+*************** response log end ***************
+
+[2018-05-29T17:58:15.906] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /blog/blogList?_id=5b0cb8b81c73d758c077230c
+request client ip:  ::ffff:127.0.0.1
+request query:  {"_id":"5b0cb8b81c73d758c077230c"}
+response time: 13
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"count":1,"data":[{"_id":"5b0cb8b81c73d758c077230c","title":"测试","type":"javascript","content":"<p>312312312</p>\n","addtime":"Tue May 29 2018 14:58:55 GMT+0800 (中国标准时间)","__v":0}]}}
+*************** response log end ***************
+
+[2018-05-29T17:58:15.910] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 11
+response status: 200
+response body: 
+{"status":"success","message":"成功!","result":{"res":[{"sorts":0,"_id":"5971c8f516e6023090c046c8","name":"html","__v":0},{"sorts":0,"_id":"5971cb1016e6023090c046c9","name":"css","__v":0},{"sorts":0,"_id":"5971cc7b16e6023090c046ca","name":"javascript","__v":0},{"sorts":0,"_id":"5971ccc316e6023090c046cb","name":"vue","__v":0},{"sorts":4,"_id":"59ddd4ed06dc7a1a4ca67b18","name":"node","__v":0},{"sorts":5,"_id":"59f9737f2e935739f8dd7519","name":"Angular","__v":0},{"sorts":6,"_id":"5a03c386f1f3bd3938300e00","name":"正则表达式","__v":0},{"sorts":0,"_id":"5a5d70fc7481243878790c91","name":"react","__v":0},{"sorts":0,"_id":"5a5d71217481243878790c92","name":"webpack","__v":0},{"sorts":0,"_id":"5a5d716c7481243878790c93","name":"canvas","__v":0},{"sorts":0,"_id":"5a5d721e7481243878790c94","name":"svg","__v":0},{"sorts":0,"_id":"5a683cf3b80b41347ccbc069","name":"ajax","__v":0},{"sorts":0,"_id":"5a9cbd76716c7a3348cf6f2f","name":"mongodb","__v":0}],"count":13}}
+*************** response log end ***************
+

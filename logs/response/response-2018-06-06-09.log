@@ -1,0 +1,13 @@
+[2018-06-06T09:40:30.514] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","passWord":"123456"}
+response time: 24
+response status: 200
+response body: 
+{"status":"success","message":"用户登录成功","result":""}
+*************** response log end ***************
+

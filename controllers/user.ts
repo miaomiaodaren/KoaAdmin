@@ -1,5 +1,9 @@
 import { UserModel } from '../model/index';
-import { isEmptyObject, handleError, handleSuccess } from '../utils/index';
+import { isEmptyObject, handleError, handleSuccess, mkdirsSync, uploadSync } from '../utils/index';
+import * as path from 'path';
+const jwt = require('jsonwebtoken');
+const util = require('util');
+const verify = util.promisify(jwt.verify);   //util.promiseify 可以让最后一个参数是callback的函数。返回一个promise
 
 export default class UserController {
     constructor() {}
@@ -78,14 +82,30 @@ export default class UserController {
     public static async Login(ctx, next) {
         const {userName, passWord} = ctx.request.body;
         try{
-            const dataInfo = await UserModel.findOne({name: userName, psw: passWord})
+            const dataInfo = await UserModel.findOne({name: userName, psw: passWord});
             if(dataInfo) {
+                const {name, _id} = dataInfo;
+                const Token = jwt.sign({})
                 handleSuccess({ctx, message:'用户登录成功'})
             } else {
                 handleError({ctx, message:'账号密码出错'})
             }
         } catch(err) {
             handleError({ctx, message: '缺少必要参数', err})
+        }
+    }
+
+    public static async ImgUpload(ctx, next) {
+        let serverFilePath = path.join( __dirname, '../upload-files' );
+        try {
+            const result = await uploadSync( ctx, {
+                fileType: 'album',      // common or album
+                path: serverFilePath
+            })
+            ctx.body = result
+        } catch (err) {
+            console.info(err);
+            ctx.body = err
         }
     }
 }

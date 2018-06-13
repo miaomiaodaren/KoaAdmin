@@ -1,0 +1,156 @@
+[2018-06-08T14:03:29.750] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 27
+response status: 200
+response body: 
+{"message":"文件大小不符合"}
+*************** response log end ***************
+
+[2018-06-08T14:03:51.169] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 5
+response status: 200
+response body: 
+{"message":"文件大小不符合"}
+*************** response log end ***************
+
+[2018-06-08T14:05:17.173] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 19
+response status: 200
+response body: 
+{"message":"文件大小不符合"}
+*************** response log end ***************
+
+[2018-06-08T14:09:34.308] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 20
+response status: 200
+response body: 
+{"message":"文件大小不符合"}
+*************** response log end ***************
+
+[2018-06-08T14:15:23.838] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 21
+response status: 200
+response body: 
+{"message":"文件大小不符合"}
+*************** response log end ***************
+
+[2018-06-08T14:17:24.623] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 23
+response status: 200
+response body: 
+{"message":"文件大小不符合"}
+*************** response log end ***************
+
+[2018-06-08T14:19:19.972] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 21
+response status: 200
+response body: 
+{"message":"文件大小不符合"}
+*************** response log end ***************
+
+[2018-06-08T14:20:04.871] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 24
+response status: 200
+response body: 
+{"message":"文件大小不符合"}
+*************** response log end ***************
+
+[2018-06-08T14:29:09.427] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 24
+response status: 200
+response body: 
+{"message":"文件大小不符合"}
+*************** response log end ***************
+
+[2018-06-08T14:43:57.702] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 19
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功","imgpath":"E:\\allpro\\KoaAdmin\\upload-files\\album\\3965eb731a99f.jpg"}
+*************** response log end ***************
+
+[2018-06-08T14:53:54.002] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 19
+response status: 200
+response body: 
+{"success":false,"formData":{"name":"'fufeng'","id":"'22'"},"message":"","imgpath":""}
+*************** response log end ***************
+
+[2018-06-08T14:55:35.480] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 17
+response status: 200
+response body: 
+"file size is error"
+*************** response log end ***************
+

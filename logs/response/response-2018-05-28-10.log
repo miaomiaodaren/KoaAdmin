@@ -1,0 +1,36 @@
+[2018-05-28T10:13:11.654] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-05-28T10:13:12.726] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-05-28T10:13:12.730] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+

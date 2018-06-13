@@ -10,3 +10,6 @@ router.use('/blog', BlogRouter.routes(), BlogRouter.allowedMethods());
 router.use('/type', TypeRouter.routes(), TypeRouter.allowedMethods());
 
 export default router
+
+
+

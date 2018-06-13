@@ -1,0 +1,60 @@
+[2018-06-13T11:47:28.450] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/userList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 782
+response status: 200
+response body: 
+{"statue":"success","list":[{"isAdmin":false,"_id":"5a52ecc32d168439e47d896b","name":"fufeng7"},{"isAdmin":true,"_id":"5a4f324f79432c1c844dc064","name":"fufeng6"},{"isAdmin":true,"_id":"5a4f323979432c1c844dc063","name":"fufeng5"},{"isAdmin":false,"_id":"5a3cc9ecf6c893330497980a","name":"fufeng4"},{"isAdmin":false,"_id":"5a3cc5a475b2b51a90757fa8","name":"fufeng3"},{"isAdmin":false,"_id":"5a3cc41875b2b51a90757fa7","name":"fufeng2"},{"isAdmin":false,"_id":"59798065222fad397037ea6a","name":"fufeng1"},{"isAdmin":false,"_id":"5970674e64fd6f2828a64dee","name":"admin"},{"isAdmin":false,"_id":"5970510b0e17e43708980b1e","name":"ff3"},{"isAdmin":false,"_id":"59700978f79a1420a065e846","name":"ff1"},{"isAdmin":false,"_id":"596f2a936009ec3dc0f97e72","name":"ff123"},{"isAdmin":true,"_id":"596f2a5990d6140af0c85e32","name":"ff12"},{"isAdmin":false,"_id":"596c4a93b671e821349219ec","name":"123456"},{"isAdmin":false,"_id":"596c33cfa3e29836a8c42d1a","name":"fufeng"}]}
+*************** response log end ***************
+
+[2018-06-13T11:47:42.828] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/userList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"statue":"success","list":[{"isAdmin":false,"_id":"5a52ecc32d168439e47d896b","name":"fufeng7"},{"isAdmin":true,"_id":"5a4f324f79432c1c844dc064","name":"fufeng6"},{"isAdmin":true,"_id":"5a4f323979432c1c844dc063","name":"fufeng5"},{"isAdmin":false,"_id":"5a3cc9ecf6c893330497980a","name":"fufeng4"},{"isAdmin":false,"_id":"5a3cc5a475b2b51a90757fa8","name":"fufeng3"},{"isAdmin":false,"_id":"5a3cc41875b2b51a90757fa7","name":"fufeng2"},{"isAdmin":false,"_id":"59798065222fad397037ea6a","name":"fufeng1"},{"isAdmin":false,"_id":"5970674e64fd6f2828a64dee","name":"admin"},{"isAdmin":false,"_id":"5970510b0e17e43708980b1e","name":"ff3"},{"isAdmin":false,"_id":"59700978f79a1420a065e846","name":"ff1"},{"isAdmin":false,"_id":"596f2a936009ec3dc0f97e72","name":"ff123"},{"isAdmin":true,"_id":"596f2a5990d6140af0c85e32","name":"ff12"},{"isAdmin":false,"_id":"596c4a93b671e821349219ec","name":"123456"},{"isAdmin":false,"_id":"596c33cfa3e29836a8c42d1a","name":"fufeng"}]}
+*************** response log end ***************
+
+[2018-06-13T11:48:49.549] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/userList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 7
+response status: 200
+response body: 
+{"statue":"success","list":[{"isAdmin":false,"_id":"5a52ecc32d168439e47d896b","name":"fufeng7"},{"isAdmin":true,"_id":"5a4f324f79432c1c844dc064","name":"fufeng6"},{"isAdmin":true,"_id":"5a4f323979432c1c844dc063","name":"fufeng5"},{"isAdmin":false,"_id":"5a3cc9ecf6c893330497980a","name":"fufeng4"},{"isAdmin":false,"_id":"5a3cc5a475b2b51a90757fa8","name":"fufeng3"},{"isAdmin":false,"_id":"5a3cc41875b2b51a90757fa7","name":"fufeng2"},{"isAdmin":false,"_id":"59798065222fad397037ea6a","name":"fufeng1"},{"isAdmin":false,"_id":"5970674e64fd6f2828a64dee","name":"admin"},{"isAdmin":false,"_id":"5970510b0e17e43708980b1e","name":"ff3"},{"isAdmin":false,"_id":"59700978f79a1420a065e846","name":"ff1"},{"isAdmin":false,"_id":"596f2a936009ec3dc0f97e72","name":"ff123"},{"isAdmin":true,"_id":"596f2a5990d6140af0c85e32","name":"ff12"},{"isAdmin":false,"_id":"596c4a93b671e821349219ec","name":"123456"},{"isAdmin":false,"_id":"596c33cfa3e29836a8c42d1a","name":"fufeng"}]}
+*************** response log end ***************
+
+[2018-06-13T11:53:41.513] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/userList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 38
+response status: 200
+response body: 
+{"statue":"success","list":[{"isAdmin":false,"_id":"5a52ecc32d168439e47d896b","name":"fufeng7"},{"isAdmin":true,"_id":"5a4f324f79432c1c844dc064","name":"fufeng6"},{"isAdmin":true,"_id":"5a4f323979432c1c844dc063","name":"fufeng5"},{"isAdmin":false,"_id":"5a3cc9ecf6c893330497980a","name":"fufeng4"},{"isAdmin":false,"_id":"5a3cc5a475b2b51a90757fa8","name":"fufeng3"},{"isAdmin":false,"_id":"5a3cc41875b2b51a90757fa7","name":"fufeng2"},{"isAdmin":false,"_id":"59798065222fad397037ea6a","name":"fufeng1"},{"isAdmin":false,"_id":"5970674e64fd6f2828a64dee","name":"admin"},{"isAdmin":false,"_id":"5970510b0e17e43708980b1e","name":"ff3"},{"isAdmin":false,"_id":"59700978f79a1420a065e846","name":"ff1"},{"isAdmin":false,"_id":"596f2a936009ec3dc0f97e72","name":"ff123"},{"isAdmin":true,"_id":"596f2a5990d6140af0c85e32","name":"ff12"},{"isAdmin":false,"_id":"596c4a93b671e821349219ec","name":"123456"},{"isAdmin":false,"_id":"596c33cfa3e29836a8c42d1a","name":"fufeng"}]}
+*************** response log end ***************
+
+[2018-06-13T11:55:27.602] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/userList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"statue":"success","list":[{"isAdmin":false,"_id":"5a52ecc32d168439e47d896b","name":"fufeng7"},{"isAdmin":true,"_id":"5a4f324f79432c1c844dc064","name":"fufeng6"},{"isAdmin":true,"_id":"5a4f323979432c1c844dc063","name":"fufeng5"},{"isAdmin":false,"_id":"5a3cc9ecf6c893330497980a","name":"fufeng4"},{"isAdmin":false,"_id":"5a3cc5a475b2b51a90757fa8","name":"fufeng3"},{"isAdmin":false,"_id":"5a3cc41875b2b51a90757fa7","name":"fufeng2"},{"isAdmin":false,"_id":"59798065222fad397037ea6a","name":"fufeng1"},{"isAdmin":false,"_id":"5970674e64fd6f2828a64dee","name":"admin"},{"isAdmin":false,"_id":"5970510b0e17e43708980b1e","name":"ff3"},{"isAdmin":false,"_id":"59700978f79a1420a065e846","name":"ff1"},{"isAdmin":false,"_id":"596f2a936009ec3dc0f97e72","name":"ff123"},{"isAdmin":true,"_id":"596f2a5990d6140af0c85e32","name":"ff12"},{"isAdmin":false,"_id":"596c4a93b671e821349219ec","name":"123456"},{"isAdmin":false,"_id":"596c33cfa3e29836a8c42d1a","name":"fufeng"}]}
+*************** response log end ***************
+

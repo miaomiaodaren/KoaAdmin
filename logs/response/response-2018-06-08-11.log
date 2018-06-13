@@ -1,0 +1,290 @@
+[2018-06-08T11:00:43.646] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 19
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功","imgpath":"E:\\allpro\\KoaAdmin\\upload-files\\album\\d87f55e617963.jpg"}
+*************** response log end ***************
+
+[2018-06-08T11:01:42.322] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-08T11:01:42.397] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-08T11:02:52.013] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /upload-files
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-08T11:03:07.511] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /upload-files
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-08T11:03:20.838] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /upload-files
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-08T11:11:23.007] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /upload-files/album/d87f55e617963.jpg
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-08T11:11:28.700] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /upload-files/album/d87f55e617963.jpg
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-08T11:11:30.384] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /upload-files/album/d87f55e617963.jpg
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-08T11:12:08.398] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /d87f55e617963.jpg
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-08T11:29:31.838] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 18
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功","imgpath":"E:\\allpro\\KoaAdmin\\upload-files\\album\\ea0a236670c17.jpg"}
+*************** response log end ***************
+
+[2018-06-08T11:30:29.249] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 21
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功","imgpath":"E:\\allpro\\KoaAdmin\\upload-files\\album\\1fac0cffbaaa5.jpg"}
+*************** response log end ***************
+
+[2018-06-08T11:39:05.917] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 20
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功","imgpath":"E:\\allpro\\KoaAdmin\\upload-files\\album\\7d9ee99115bb1.jpg"}
+*************** response log end ***************
+
+[2018-06-08T11:39:26.342] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 3
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功","imgpath":"E:\\allpro\\KoaAdmin\\upload-files\\album\\770f6d67354a9.jpg"}
+*************** response log end ***************
+
+[2018-06-08T11:39:51.987] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 4
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功","imgpath":"E:\\allpro\\KoaAdmin\\upload-files\\album\\1e48d3ccd4678.jpg"}
+*************** response log end ***************
+
+[2018-06-08T11:39:52.022] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 5
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功","imgpath":"E:\\allpro\\KoaAdmin\\upload-files\\album\\ee5438eabb868.jpg"}
+*************** response log end ***************
+
+[2018-06-08T11:39:52.128] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 4
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功","imgpath":"E:\\allpro\\KoaAdmin\\upload-files\\album\\9c708cb18cfbe.jpg"}
+*************** response log end ***************
+
+[2018-06-08T11:40:48.750] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 19
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功","imgpath":"E:\\allpro\\KoaAdmin\\upload-files\\album\\5a17d9aa99e81.jpg"}
+*************** response log end ***************
+
+[2018-06-08T11:41:17.917] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 19
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功","imgpath":"E:\\allpro\\KoaAdmin\\upload-files\\album\\59ace56e41f92.jpg"}
+*************** response log end ***************
+
+[2018-06-08T11:42:47.520] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 21
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功","imgpath":"E:\\allpro\\KoaAdmin\\upload-files\\album\\f22c9a371a4af.jpg"}
+*************** response log end ***************
+
+[2018-06-08T11:42:47.537] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 6
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功","imgpath":"E:\\allpro\\KoaAdmin\\upload-files\\album\\4ba4703572ffe.jpg"}
+*************** response log end ***************
+
+[2018-06-08T11:58:21.246] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 20
+response status: 200
+response body: 
+{"success":true,"formData":{"name":"'fufeng'","id":"'22'"},"message":"文件上传成功","imgpath":"E:\\allpro\\KoaAdmin\\upload-files\\album\\0f8bca1dec537.jpg"}
+*************** response log end ***************
+
+[2018-06-08T11:59:11.489] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 20
+response status: 200
+response body: 
+{"message":"文件大小不符合"}
+*************** response log end ***************
+

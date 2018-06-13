@@ -1,0 +1,1220 @@
+[2018-06-07T16:04:16.622] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:16.833] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:17.038] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:17.242] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:17.446] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:17.651] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:17.854] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:18.058] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:18.262] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:18.466] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:18.669] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:18.877] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:19.083] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:19.287] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:19.492] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:19.697] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:19.902] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:20.106] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:20.309] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:20.513] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:20.719] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:20.925] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:21.129] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:21.335] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:21.552] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:21.756] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:21.963] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:22.167] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:22.371] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:22.577] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:22.781] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:22.984] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:23.192] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:23.399] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:23.604] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:23.809] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:24.013] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:24.217] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:24.421] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:24.625] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:24.830] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:25.034] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:25.238] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:25.444] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:25.649] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:25.853] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:26.057] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:26.260] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:04:26.464] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:09:00.675] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:09:00.886] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:09:01.089] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:09:01.291] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:09:01.493] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:09:01.696] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:09:01.899] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:09:02.102] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:09:02.306] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:09:02.508] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:09:02.713] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:23.630] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:23.840] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:24.043] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:24.246] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:24.449] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:24.652] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:24.854] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:25.058] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:25.261] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:25.464] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:25.667] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:25.870] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:26.073] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:26.278] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:26.481] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:26.686] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:26.889] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:27.092] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:27.296] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:27.500] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:27.703] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:27.906] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:28.109] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:28.311] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:28.515] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:28.718] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:28.922] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:29.125] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:29.327] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:29.533] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:29.738] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:10:29.941] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json/list
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"无效的api请求"}
+*************** response log end ***************
+
+[2018-06-07T16:47:27.556] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 8
+response status: 200
+response body: 
+{"code":0,"message":"服务器内部错误"}
+*************** response log end ***************
+
+[2018-06-07T16:49:14.561] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 5
+response status: 200
+response body: 
+{"code":0,"message":"服务器内部错误"}
+*************** response log end ***************
+
+[2018-06-07T16:49:27.470] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/userList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 20
+response status: 200
+response body: 
+{"statue":"success","list":[{"isAdmin":false,"_id":"5a52ecc32d168439e47d896b","name":"fufeng7"},{"isAdmin":true,"_id":"5a4f324f79432c1c844dc064","name":"fufeng6"},{"isAdmin":true,"_id":"5a4f323979432c1c844dc063","name":"fufeng5"},{"isAdmin":false,"_id":"5a3cc9ecf6c893330497980a","name":"fufeng4"},{"isAdmin":false,"_id":"5a3cc5a475b2b51a90757fa8","name":"fufeng3"},{"isAdmin":false,"_id":"5a3cc41875b2b51a90757fa7","name":"fufeng2"},{"isAdmin":false,"_id":"59798065222fad397037ea6a","name":"fufeng1"},{"isAdmin":false,"_id":"5970674e64fd6f2828a64dee","name":"admin"},{"isAdmin":false,"_id":"5970510b0e17e43708980b1e","name":"ff3"},{"isAdmin":false,"_id":"59700978f79a1420a065e846","name":"ff1"},{"isAdmin":false,"_id":"596f2a936009ec3dc0f97e72","name":"ff123"},{"isAdmin":true,"_id":"596f2a5990d6140af0c85e32","name":"ff12"},{"isAdmin":false,"_id":"596c4a93b671e821349219ec","name":"123456"},{"isAdmin":false,"_id":"596c33cfa3e29836a8c42d1a","name":"fufeng"}]}
+*************** response log end ***************
+
+[2018-06-07T16:50:14.730] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 5
+response status: 200
+response body: 
+{"code":0,"message":"服务器内部错误"}
+*************** response log end ***************
+
+[2018-06-07T16:51:16.081] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 6
+response status: 200
+response body: 
+{"code":0,"message":"服务器内部错误"}
+*************** response log end ***************
+
+[2018-06-07T16:52:24.338] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 12
+response status: 200
+response body: 
+{"code":0,"message":"服务器内部错误"}
+*************** response log end ***************
+
+[2018-06-07T16:53:14.015] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 77
+response status: 200
+response body: 
+{"status":"success","message":"用户登录成功","result":""}
+*************** response log end ***************
+
+[2018-06-07T16:56:17.446] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 32
+response status: 200
+response body: 
+{"status":"success","message":"用户登录成功","result":""}
+*************** response log end ***************
+
+[2018-06-07T16:59:50.996] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/imgupload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 20
+response status: 200
+response body: 
+{"success":true,"formData":{},"message":"文件上传成功"}
+*************** response log end ***************
+
