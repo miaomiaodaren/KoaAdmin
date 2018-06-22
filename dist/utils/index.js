@@ -31,7 +31,7 @@ exports.mkdirsSync = (dirname) => {
     }
     else {
         if (exports.mkdirsSync(path.dirname(dirname))) {
-            fs.mkdirsSync(dirname);
+            fs.mkdirSync(dirname);
             return true;
         }
     }
@@ -41,28 +41,32 @@ function getSuffixName(fileName) {
     return nameList[nameList.length - 1];
 }
 exports.uploadSync = (ctx, options) => {
-    console.info(options, 'isoptinons');
-    let busboy = new BusBoy({ headers: ctx.req.headers });
+    let busboy = new BusBoy({ headers: ctx.req.headers, limits: { fileSize: 200, files: 1 } });
     let fileType = options.fileType || 'common';
     let filePath = path.join(options.path, fileType);
     let mkdirResult = exports.mkdirsSync(filePath);
     return new Promise((resolve, reject) => {
         console.log('文件上传中...');
+        let islimit = true;
         let result = {
             success: false,
             formData: {},
-            message: ''
+            message: '',
+            imgpath: ''
         };
         busboy.on('file', function (fieldname, file, filename, encoding, mimetype) {
             let fileName = Math.random().toString(16).substr(2) + '.' + getSuffixName(filename);
             let _uploadFilePath = path.join(filePath, fileName);
             let saveTo = path.join(_uploadFilePath);
             file.pipe(fs.createWriteStream(saveTo));
+            file.on('limit', function () {
+                fs.unlinkSync(saveTo);
+                result.success = false;
+                result.message = '文件上传失败';
+                reject(result);
+            });
             file.on('end', function () {
-                result.success = true;
-                result.message = '文件上传成功';
-                console.log('文件上传成功！');
-                resolve(result);
+                console.info(3, result.message);
             });
         });
         busboy.on('field', function (fieldname, val, fieldnameTruncated, valTruncated, encoding, mimetype) {
@@ -70,7 +74,7 @@ exports.uploadSync = (ctx, options) => {
             result.formData[fieldname] = inspect(val);
         });
         busboy.on('finish', function () {
-            console.log('文件上结束');
+            console.log('文件上结束', ...arguments);
             resolve(result);
         });
         busboy.on('error', function (err) {

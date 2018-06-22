@@ -7,6 +7,7 @@ const Router = require('koa-router');               //koa-router
 const logger = require('koa-logger');               //koa-logger
 const {logUtil, initLogPath} = require('./utils/log_util');        //node-log4js 
 const log_config = require('./config/log_config');
+const wxconfig = require('./config/wxutil');
 import './config/index';
 
 import route from './router/index';
@@ -34,6 +35,8 @@ app.use(async (ctx, next) => {
         logUtil.logError(ctx, error, ms);   //记录异常日志
     }
 });
+
+app.use(wxconfig.sign());           //微信权限认证
 
 app.use(async(ctx, next) => {
     console.info('is-first');

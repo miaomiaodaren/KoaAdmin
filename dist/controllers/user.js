@@ -10,6 +10,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const index_1 = require("../model/index");
 const index_2 = require("../utils/index");
+const path = require("path");
+const jwt = require('jsonwebtoken');
+const util = require('util');
+const verify = util.promisify(jwt.verify);
 class UserController {
     constructor() { }
     static GetUserList(ctx, next) {
@@ -99,6 +103,7 @@ class UserController {
             try {
                 const dataInfo = yield index_1.UserModel.findOne({ name: userName, psw: passWord });
                 if (dataInfo) {
+                    const { name, _id } = dataInfo;
                     index_2.handleSuccess({ ctx, message: '用户登录成功' });
                 }
                 else {
@@ -112,19 +117,17 @@ class UserController {
     }
     static ImgUpload(ctx, next) {
         return __awaiter(this, void 0, void 0, function* () {
-            let serverFilePath = path.join(__dirname, 'upload-files');
-            console.info(222);
+            let serverFilePath = path.join(__dirname, '../upload-files');
             try {
                 const result = yield index_2.uploadSync(ctx, {
                     fileType: 'album',
                     path: serverFilePath
                 });
-                console.info(result, 'siresult');
                 ctx.body = result;
             }
             catch (err) {
-                console.info(222);
                 console.info(err);
+                ctx.body = err;
             }
         });
     }

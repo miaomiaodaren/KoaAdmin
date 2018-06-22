@@ -85,7 +85,6 @@ export default class UserController {
             const dataInfo = await UserModel.findOne({name: userName, psw: passWord});
             if(dataInfo) {
                 const {name, _id} = dataInfo;
-                const Token = jwt.sign({})
                 handleSuccess({ctx, message:'用户登录成功'})
             } else {
                 handleError({ctx, message:'账号密码出错'})

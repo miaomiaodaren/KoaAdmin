@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon --exec ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "node index.js"
   },
   "repository": {
     "type": "git",

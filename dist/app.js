@@ -17,10 +17,11 @@ const Router = require('koa-router');
 const logger = require('koa-logger');
 const { logUtil, initLogPath } = require('./utils/log_util');
 const log_config = require('./config/log_config');
+const wxconfig = require('./config/wxutil');
 require("./config/index");
 const index_1 = require("./router/index");
 const interceptor_1 = require("./middleWares/interceptor");
-console.info(__dirname, 'is__dirname');
+console.info(__dirname, 'is__dirname', path.join(__dirname, './'));
 const app = new Koa();
 const staticPath = './';
 app.use(bodyParser());
@@ -41,6 +42,7 @@ app.use((ctx, next) => __awaiter(this, void 0, void 0, function* () {
         logUtil.logError(ctx, error, ms);
     }
 }));
+app.use(wxconfig.sign());
 app.use((ctx, next) => __awaiter(this, void 0, void 0, function* () {
     console.info('is-first');
     yield next();
