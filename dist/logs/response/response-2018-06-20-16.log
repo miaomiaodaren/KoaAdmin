@@ -1,0 +1,104 @@
+[2018-06-20T16:03:39.448] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"fufeng","text":"adfasd","indexs":323}
+response time: 17
+response status: 200
+response body: 
+{"status":"error","message":"账号密码出错","debug":""}
+*************** response log end ***************
+
+[2018-06-20T16:04:27.668] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"fufeng","text":"adfasd","indexs":323}
+response time: 10
+response status: 200
+response body: 
+{"status":"error","message":"账号密码出错","debug":""}
+*************** response log end ***************
+
+[2018-06-20T16:32:08.517] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"22","text":"33"}
+response time: 8
+response status: 200
+response body: 
+{"status":"error","message":"账号密码出错","debug":""}
+*************** response log end ***************
+
+[2018-06-20T16:33:41.007] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"{\"name\":\"fufeng\",\"text\":\"adfasd\",\"indexs\":323}":""}
+response time: 40
+response status: 200
+response body: 
+{"status":"error","message":"账号密码出错","debug":""}
+*************** response log end ***************
+
+[2018-06-20T16:34:01.948] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"{\"name\":\"fufeng\",\"text\":\"adfasd\",\"indexs\":323}":""}
+response time: 38
+response status: 200
+response body: 
+{"status":"error","message":"账号密码出错","debug":""}
+*************** response log end ***************
+
+[2018-06-20T16:34:24.179] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"{\"name\":\"fufeng\"}":""}
+response time: 7
+response status: 200
+response body: 
+{"status":"error","message":"账号密码出错","debug":""}
+*************** response log end ***************
+
+[2018-06-20T16:34:37.360] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"{\"name\":\"fufeng\"}":""}
+response time: 43
+response status: 200
+response body: 
+{"status":"error","message":"账号密码出错","debug":""}
+*************** response log end ***************
+
+[2018-06-20T16:34:56.075] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"{\"name\":\"fufeng\",\"text\":\"3333\"}":""}
+response time: 6
+response status: 200
+response body: 
+{"status":"error","message":"账号密码出错","debug":""}
+*************** response log end ***************
+

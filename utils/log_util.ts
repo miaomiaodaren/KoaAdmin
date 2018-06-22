@@ -36,7 +36,8 @@ const formatRes = function (ctx, resTime) {
     logText += "response status: " + ctx.status + "\n";
 
     //响应内容
-    logText += "response body: " + "\n" + JSON.stringify(ctx.body) + "\n";
+    // logText += "response body: " + "\n" + JSON.stringify(ctx.body) + "\n";
+    logText += "response body: " + "\n" + JSON.stringify('为了防止文件过大,所以这边禁止打印,有调试需要再打开') + "\n";
 
     //响应日志结束
     logText += "*************** response log end ***************" + "\n";

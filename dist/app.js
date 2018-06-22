@@ -46,7 +46,6 @@ app.use(wxconfig.sign());
 app.use((ctx, next) => __awaiter(this, void 0, void 0, function* () {
     console.info('is-first');
     yield next();
-    console.info(4);
 }));
 app.use((ctx, next) => __awaiter(this, void 0, void 0, function* () {
     try {

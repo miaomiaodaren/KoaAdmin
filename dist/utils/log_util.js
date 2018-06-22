@@ -20,7 +20,7 @@ const formatRes = function (ctx, resTime) {
     logText += "\n" + "*************** response log start ***************" + "\n";
     logText += formatReqLog(ctx.request, resTime);
     logText += "response status: " + ctx.status + "\n";
-    logText += "response body: " + "\n" + JSON.stringify(ctx.body) + "\n";
+    logText += "response body: " + "\n" + JSON.stringify('为了防止文件过大,所以这边禁止打印,有调试需要再打开') + "\n";
     logText += "*************** response log end ***************" + "\n";
     return logText;
 };

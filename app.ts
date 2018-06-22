@@ -41,7 +41,6 @@ app.use(wxconfig.sign());           //微信权限认证
 app.use(async(ctx, next) => {
     console.info('is-first');
     await next()
-    console.info(4);
 })
 
 app.use(async (ctx, next) => {
