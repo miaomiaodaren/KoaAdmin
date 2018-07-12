@@ -1,0 +1,181 @@
+[2018-06-25T15:20:05.839] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","passWord":"123456"}
+response time: 30
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-25T15:20:07.855] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/userList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 14
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-25T15:20:09.293] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 17
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-25T15:20:11.080] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/blog/blogList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1812
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-25T15:20:15.623] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 16
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-25T15:20:17.371] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/blog/blogList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1768
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-25T15:20:52.493] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 9
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-25T15:20:54.199] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/blog/blogList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1717
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-25T15:20:55.685] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 10
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-25T15:20:57.407] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/blog/blogList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1734
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-25T15:21:02.398] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/userList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 6
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-25T16:52:05.463] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/userList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 15
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-25T16:52:06.394] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 10
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-25T16:52:08.123] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/blog/blogList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1741
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-25T16:54:21.068] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/blog/blogList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1858
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+

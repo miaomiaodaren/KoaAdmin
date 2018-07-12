@@ -1,0 +1,136 @@
+[2018-06-27T09:38:32.791] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","passWord":"123456"}
+response time: 209
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-27T09:38:34.634] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/userList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 10
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-27T09:38:36.007] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 11
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-27T09:38:38.579] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/blog/blogList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2591
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-27T10:25:24.162] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/type/Gettype
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 16
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-27T10:25:25.971] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/blog/blogList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1836
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-27T10:25:54.472] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/userList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 12
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-27T10:25:57.327] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/blog/blogList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2244
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-27T10:56:32.021] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","passWord":"123456"}
+response time: 152
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-27T16:29:54.244] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","passWord":"123456"}
+response time: 46
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-27T16:48:13.326] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","passWord":"123456"}
+response time: 8
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+

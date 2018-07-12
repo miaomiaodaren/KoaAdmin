@@ -20,10 +20,15 @@
   },
   "homepage": "https://github.com/miaomiaodaren/KoaAdmin#readme",
   "dependencies": {
+    "axios": "^0.18.0",
+    "big-integer": "^1.6.32",
     "busboy": "^0.2.14",
     "koa": "^2.5.1",
     "koa-logger": "^3.2.0",
-    "log4js": "^2.7.0"
+    "log4js": "^2.7.0",
+    "qs": "^6.5.2",
+    "request": "^2.75.0",
+    "request-promise": "^4.2.2"
   },
   "devDependencies": {
     "@types/mongoose": "^5.0.13",

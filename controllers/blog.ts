@@ -7,14 +7,18 @@ export default class BlogController {
     public static async GetBlogList(ctx, next) {
         try{
             const method = ctx.method, param = method === "GET" ? ctx.query : ctx.request.body;
-            const { title } = param; 
+            const { title, page, pagesize, type } = param; 
+            let dataer: object;
             if(title) {
-                const [count, res] = await Promise.all([BlogModel.find({$or: [{title: {$regex: title, $options: "$i"}}]}).count(), BlogModel.find({$or: [{title: {$regex: title, $options: "$i"}}]}).sort({_id: -1})]);
-                handleSuccess({ctx, message: '成功!', result: {count, data: res}})
+                dataer = type ? {$or: [{title: {$regex: title, $options: "$i"}}], type} : {$or: [{title: {$regex: title, $options: "$i"}}]}
             } else {
-                const [count, res] = await Promise.all([BlogModel.find({...param}).count(), BlogModel.find({...param}).sort({_id: -1})]);
-                handleSuccess({ctx, message: '成功!', result: {count, data: res}})
+                dataer = type ? {type} : {}
             }
+            const [count, res] = await Promise.all([
+                BlogModel.find(dataer).count(), 
+                BlogModel.find(dataer).sort({_id: -1}).limit(parseInt(pagesize)).skip(parseInt(pagesize) * (page -1))
+            ]);
+            handleSuccess({ctx, message: '成功!', result: {count, data: res, page: parseInt(page), pagesize}})
         } catch(err) {
             handleError({ctx, err})
         }    

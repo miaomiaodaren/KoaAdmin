@@ -21,7 +21,7 @@ const staticPath = './'                             //此处路径是以启动�
 app.use(bodyParser())                               //use ctx.body 解析中间件 GET请求使用ctx.query,POST使用ctx.request.body
 app.use(koaStatic(path.join( __dirname,  staticPath)))
 app.use(logger());
-app.use(interceptor);
+app.use(interceptor);                               //cros 跨域设置
 app.use(async (ctx, next) => {
     await initLogPath(log_config);           //logger 初始化,创建文件
     const start = new Date();  //响应开始时间
@@ -46,6 +46,7 @@ app.use(async(ctx, next) => {
 app.use(async (ctx, next) => {
     try {
         await next()
+        console.info(4);
         if (ctx.status === 404 || ctx.status === 405) ctx.body = { code: 0, message: '无效的api请求'}
     } catch (error) {
         ctx.body = { code: 0, message: '服务器内部错误' }

@@ -1,0 +1,1466 @@
+[2018-07-10T10:02:59.334] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"username":"18814880020","password":"920807fy"}
+response time: 134
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:09:53.804] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"username":"18814880020","password":"920807fy"}
+response time: 142
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:18:26.579] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"username":"18814880020","password":"920807fy"}
+response time: 86
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:20:07.532] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getplay
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"uid":291801559}
+response time: 28
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:20:37.127] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getplay
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"uid":291801559}
+response time: 7
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:22:38.159] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"username":"18814880020","password":"920807fy"}
+response time: 77
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:23:09.617] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getplay
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"uid":291801559}
+response time: 1
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:26:15.850] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"username":"18814880020","password":"920807fy"}
+response time: 84
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:29:05.496] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"username":"18814880020","password":"920807fy"}
+response time: 76
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:32:52.516] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"username":"18814880020","password":"920807fy"}
+response time: 84
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:32:54.162] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getplay
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"uid":291801559}
+response time: 2
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:36:16.021] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"username":"18814880020","password":"920807fy"}
+response time: 71
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:36:33.725] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getplay
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"uid":291801559}
+response time: 1
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:37:15.577] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"username":"18814880020","password":"920807fy"}
+response time: 45
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:38:07.277] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getplay
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"uid":291801559}
+response time: 1
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:38:33.057] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getplay
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"uid":291801559}
+response time: 8
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:39:34.491] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getplay
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"uid":291801559}
+response time: 8
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:39:59.623] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getplay
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"uid":291801559}
+response time: 7
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:40:28.426] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getplay
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"uid":291801559}
+response time: 7
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:40:47.239] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getplay
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"uid":291801559}
+response time: 74
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:40:56.413] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getlist
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":403205847}
+response time: 2
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:41:12.652] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getlist
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":403205847}
+response time: 68
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:45:00.760] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"username":"18814880020","password":"920807fy"}
+response time: 63
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:45:32.873] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getplay
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"uid":291801559}
+response time: 30
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:45:47.884] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getlist
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":403205847}
+response time: 1
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:46:46.228] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getplay
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"uid":291801559}
+response time: 54
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:46:53.725] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getlist
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":403205847}
+response time: 1
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:48:03.926] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getlist
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":403205847}
+response time: 9
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:48:55.281] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getlist
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":403205847}
+response time: 8
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:49:11.515] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getlist
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":403205847}
+response time: 8
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:49:30.355] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getlist
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":403205847}
+response time: 8
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:49:59.974] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getlist
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":403205847}
+response time: 10
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T10:50:22.621] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getlist
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":403205847}
+response time: 10
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T11:20:33.954] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"username":"18814880020","password":"920807fy"}
+response time: 63
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T11:48:40.237] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"username":"18814880020","password":"920807fy"}
+response time: 104
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T11:49:45.649] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/music/getplay
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"uid":291801559}
+response time: 2
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T12:41:37.669] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /login/cellphone
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"username":"18814880020","password":"920807fy"}
+response time: 7
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T13:48:21.609] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /login/cellphone?phone=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"phone":"18814880020","password":"920807fy"}
+response time: 6
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T13:50:37.322] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?phone=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"phone":"18814880020","password":"920807fy"}
+response time: 8
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T13:51:29.037] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?phone=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"phone":"18814880020","password":"920807fy"}
+response time: 61
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T13:52:50.620] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?phone=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"phone":"18814880020","password":"920807fy"}
+response time: 61
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:09:37.477] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?phone=15268516980&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"phone":"15268516980","password":"920807fy"}
+response time: 8
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:10:18.677] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?phone=15268516980&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"phone":"15268516980","password":"920807fy"}
+response time: 52
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:12:00.759] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?phone=15268516980&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"phone":"15268516980","password":"920807fy"}
+response time: 42
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:12:53.186] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?phone=15268516980&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"phone":"15268516980","password":"920807fy"}
+response time: 42
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:15:36.124] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?phone=15268516980&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"phone":"15268516980","password":"920807fy"}
+response time: 43
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:17:09.567] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?phone=15268516980&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"phone":"15268516980","password":"920807fy"}
+response time: 56
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:20:20.808] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?phone=15268516980&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"phone":"15268516980","password":"920807fy"}
+response time: 54
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:22:36.833] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?phone=15268516980&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"phone":"15268516980","password":"920807fy"}
+response time: 42
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:27:16.874] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?phone=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"phone":"18814880020","password":"920807fy"}
+response time: 47
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:28:24.441] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?phone=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"phone":"18814880020","password":"920807fy"}
+response time: 46
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:29:03.286] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 13
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:29:20.718] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getplay?uid=291801559
+request client ip:  ::ffff:127.0.0.1
+request query:  {"uid":"291801559"}
+response time: 6
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:30:39.486] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 40
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:31:38.393] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 47
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:33:12.040] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 45
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:35:47.434] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 64
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:37:30.125] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 46
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:38:42.010] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 40
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:39:06.716] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 42
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:42:14.050] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","passWord":"123456"}
+response time: 28
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:50:23.085] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 42
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:50:52.704] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 47
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:54:46.687] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 50
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T14:55:26.046] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 43
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T15:12:40.514] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 47
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T15:16:00.498] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 41
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T15:16:56.716] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 43
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T15:18:26.075] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 42
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T15:19:26.701] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 43
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T15:21:05.742] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 42
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T15:30:41.184] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 46
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T16:06:47.008] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=15268516980&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"15268516980","password":"920807fy"}
+response time: 66
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T16:11:14.248] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=15268516980&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"15268516980","password":"920807fy"}
+response time: 90
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T16:11:49.147] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=15268516980&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"15268516980","password":"920807fy"}
+response time: 80
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T16:12:35.878] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=15268516980&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"15268516980","password":"920807fy"}
+response time: 99
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T16:13:56.494] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=15268516980&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"15268516980","password":"920807fy"}
+response time: 41
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T16:15:10.898] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=15268516980&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"15268516980","password":"920807fy"}
+response time: 77
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T16:20:26.022] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=15268516980&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"15268516980","password":"920807fy"}
+response time: 90
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T16:33:28.553] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=15268516980&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"15268516980","password":"920807fy"}
+response time: 86
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T16:33:49.948] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=15268516980&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"15268516980","password":"920807fy"}
+response time: 79
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T16:41:50.434] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 104
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T16:42:47.610] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getplay?uid=291801559
+request client ip:  ::ffff:127.0.0.1
+request query:  {"uid":"291801559"}
+response time: 39
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T16:47:09.530] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getplay?uid=291801559
+request client ip:  ::ffff:127.0.0.1
+request query:  {"uid":"291801559"}
+response time: 93
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T16:47:41.483] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=403205847
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"403205847"}
+response time: 68
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T16:50:36.650] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=403205847
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"403205847"}
+response time: 316
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T16:52:50.308] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=403205847
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"403205847"}
+response time: 254
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T16:53:02.694] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=403205847
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"403205847"}
+response time: 303
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T16:53:24.595] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=403205847
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"403205847"}
+response time: 229
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T17:00:38.182] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 97
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T17:06:40.990] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 79
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T17:07:38.599] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 35
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T17:08:28.500] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=403205847
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"403205847"}
+response time: 180
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T17:28:31.859] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=403205847
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"403205847"}
+response time: 149
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T17:28:51.768] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=403205847
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"403205847"}
+response time: 169
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T17:29:07.312] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=403205847
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"403205847"}
+response time: 193
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T17:29:23.294] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=403205847
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"403205847"}
+response time: 166
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T17:29:32.615] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=403205847
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"403205847"}
+response time: 160
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T17:29:40.330] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=403205847
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"403205847"}
+response time: 147
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T17:41:08.264] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 56
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T17:42:44.357] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/login?username=18814880020&password=920807fy
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"18814880020","password":"920807fy"}
+response time: 62
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T18:03:08.230] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getplay?uid=291801559
+request client ip:  ::ffff:127.0.0.1
+request query:  {"uid":"291801559"}
+response time: 48
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T18:03:13.767] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getplay?uid=291801559
+request client ip:  ::ffff:127.0.0.1
+request query:  {"uid":"291801559"}
+response time: 65
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T18:03:30.269] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getplay?uid=291801559
+request client ip:  ::ffff:127.0.0.1
+request query:  {"uid":"291801559"}
+response time: 53
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T18:11:25.332] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getplay?uid=291801559
+request client ip:  ::ffff:127.0.0.1
+request query:  {"uid":"291801559"}
+response time: 36
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T18:11:25.472] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=2039278631
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"2039278631"}
+response time: 73
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T18:11:25.618] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=403205847
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"403205847"}
+response time: 223
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T18:21:37.876] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getplay?uid=291801559
+request client ip:  ::ffff:127.0.0.1
+request query:  {"uid":"291801559"}
+response time: 54
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T18:21:37.967] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=2039278631
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"2039278631"}
+response time: 44
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T18:21:38.105] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=403205847
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"403205847"}
+response time: 187
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T18:22:17.661] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getplay?uid=291801559
+request client ip:  ::ffff:127.0.0.1
+request query:  {"uid":"291801559"}
+response time: 50
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T18:22:17.779] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=2039278631
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"2039278631"}
+response time: 64
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T18:22:17.952] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=403205847
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"403205847"}
+response time: 253
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T18:22:37.888] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getplay?uid=291801559
+request client ip:  ::ffff:127.0.0.1
+request query:  {"uid":"291801559"}
+response time: 51
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T18:22:38.017] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=2039278631
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"2039278631"}
+response time: 76
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T18:22:38.122] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=403205847
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"403205847"}
+response time: 192
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T18:23:03.705] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getplay?uid=291801559
+request client ip:  ::ffff:127.0.0.1
+request query:  {"uid":"291801559"}
+response time: 43
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T18:23:03.810] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=2039278631
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"2039278631"}
+response time: 62
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-07-10T18:23:03.884] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/music/getlist?id=403205847
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"403205847"}
+response time: 142
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+

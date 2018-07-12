@@ -1,0 +1,73 @@
+[2018-06-28T10:05:02.179] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","passWord":"123456"}
+response time: 31
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-28T17:31:55.558] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/userList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 113
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-28T17:38:14.989] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/userList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-28T17:38:17.605] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/userList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-28T17:45:31.400] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/userList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-06-28T18:02:18.462] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/userList
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 23
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
