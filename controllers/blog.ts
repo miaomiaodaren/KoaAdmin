@@ -2,15 +2,20 @@ import { BlogModel } from '../model/index';
 import { getParamsDec } from '../utils/index';
 import { isEmptyObject, handleError, handleSuccess } from '../utils/index';
 
+
+
 export default class BlogController {
     // @getParamsDec
     public static async GetBlogList(ctx, next) {
         try{
             const method = ctx.method, param = method === "GET" ? ctx.query : ctx.request.body;
-            const { title, page, pagesize, type } = param; 
+            const { title, page, pagesize, type , _id} = param; 
+            console.info(type, _id, 444, {type, _id});
             let dataer: object;
             if(title) {
                 dataer = type ? {$or: [{title: {$regex: title, $options: "$i"}}], type} : {$or: [{title: {$regex: title, $options: "$i"}}]}
+            } else if(_id) {
+                dataer = {_id}
             } else {
                 dataer = type ? {type} : {}
             }
