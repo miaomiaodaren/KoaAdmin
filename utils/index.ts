@@ -56,7 +56,7 @@ function getSuffixName( fileName ) {
 
 //同步上传文件
 export const uploadSync = (ctx, options) => {
-    let busboy = new BusBoy({headers: ctx.req.headers, limits: {fileSize: 200, files: 1}})
+    let busboy = new BusBoy({headers: ctx.req.headers, limits: {fileSize: 2000000, files: 1}})
     let fileType = options.fileType || 'common'
     let filePath = path.join( options.path,  fileType)
     let mkdirResult = mkdirsSync( filePath );
@@ -79,7 +79,10 @@ export const uploadSync = (ctx, options) => {
             file.pipe(fs.createWriteStream(saveTo))
 
             file.on('limit', function() {
-                fs.unlinkSync(saveTo);
+                //如果大小不符合,则删除已经生成的图片
+                setTimeout(() => {
+                    fs.unlinkSync(saveTo);
+                }, 100)
                 result.success = false;
                 result.message = '文件上传失败';
                 reject(result)
