@@ -25,6 +25,7 @@
     "busboy": "^0.2.14",
     "koa": "^2.5.1",
     "koa-logger": "^3.2.0",
+    "koa-session-minimal": "^3.0.4",
     "log4js": "^2.7.0",
     "qs": "^6.5.2",
     "request": "^2.75.0",

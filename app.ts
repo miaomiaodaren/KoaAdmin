@@ -7,6 +7,7 @@ const Router = require('koa-router');               //koa-router
 const logger = require('koa-logger');               //koa-logger
 const {logUtil, initLogPath} = require('./utils/log_util');        //node-log4js 
 const log_config = require('./config/log_config');
+const session = require('koa-session-minimal');    //koa-session
 const wxconfig = require('./config/wxutil');
 import './config/index';
 
@@ -37,6 +38,17 @@ app.use(async (ctx, next) => {
 });
 
 app.use(wxconfig.sign());           //微信权限认证
+app.use(session({
+    key: 'session-id',          // cookie 中存储 session-id 时的键名, 默认为 koa:sess
+    cookie: {                   // 与 cookie 相关的配置
+        domain: 'localhost',    // 写 cookie 所在的域名
+        path: '/',              // 写 cookie 所在的路径
+        maxAge: 1000 * 6,      // cookie 有效时长
+        httpOnly: true,         // 是否只用于 http 请求中获取
+        overwrite: false        // 是否允许重写
+    }
+}))
+
 
 app.use(async(ctx, next) => {
     console.info('is-first');
