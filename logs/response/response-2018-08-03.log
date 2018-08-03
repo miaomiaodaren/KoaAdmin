@@ -1,0 +1,73 @@
+[2018-08-03T15:57:18.221] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userName":"admin","passWord":"123456"}
+response time: 53
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-08-03T15:57:18.770] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/blog/blogList?page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"page":"1","pagesize":"10"}
+response time: 391
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-08-03T16:17:01.278] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getsign?url=http://127.0.0.1:8488/index
+request client ip:  ::ffff:127.0.0.1
+request query:  {"url":"http://127.0.0.1:8488/index"}
+response time: 72
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-08-03T16:17:01.864] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/blog/blogList?page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"page":"1","pagesize":"10"}
+response time: 576
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-08-03T16:26:11.167] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getsign?url=http://127.0.0.1:8488/index
+request client ip:  ::ffff:127.0.0.1
+request query:  {"url":"http://127.0.0.1:8488/index"}
+response time: 30
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+
+[2018-08-03T16:26:11.527] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/blog/blogList?page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"page":"1","pagesize":"10"}
+response time: 352
+response status: 200
+response body: 
+"为了防止文件过大,所以这边禁止打印,有调试需要再打开"
+*************** response log end ***************
+

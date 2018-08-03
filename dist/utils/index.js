@@ -41,7 +41,7 @@ function getSuffixName(fileName) {
     return nameList[nameList.length - 1];
 }
 exports.uploadSync = (ctx, options) => {
-    let busboy = new BusBoy({ headers: ctx.req.headers, limits: { fileSize: 200, files: 1 } });
+    let busboy = new BusBoy({ headers: ctx.req.headers, limits: { fileSize: 2000000, files: 1 } });
     let fileType = options.fileType || 'common';
     let filePath = path.join(options.path, fileType);
     let mkdirResult = exports.mkdirsSync(filePath);
@@ -60,7 +60,9 @@ exports.uploadSync = (ctx, options) => {
             let saveTo = path.join(_uploadFilePath);
             file.pipe(fs.createWriteStream(saveTo));
             file.on('limit', function () {
-                fs.unlinkSync(saveTo);
+                setTimeout(() => {
+                    fs.unlinkSync(saveTo);
+                }, 100);
                 result.success = false;
                 result.message = '文件上传失败';
                 reject(result);

@@ -17,6 +17,7 @@ const Router = require('koa-router');
 const logger = require('koa-logger');
 const { logUtil, initLogPath } = require('./utils/log_util');
 const log_config = require('./config/log_config');
+const session = require('koa-session-minimal');
 const wxconfig = require('./config/wxutil');
 require("./config/index");
 const index_1 = require("./router/index");
@@ -43,6 +44,16 @@ app.use((ctx, next) => __awaiter(this, void 0, void 0, function* () {
     }
 }));
 app.use(wxconfig.sign());
+app.use(session({
+    key: 'session-id',
+    cookie: {
+        domain: 'localhost',
+        path: '/',
+        maxAge: 1000 * 6,
+        httpOnly: true,
+        overwrite: false
+    }
+}));
 app.use((ctx, next) => __awaiter(this, void 0, void 0, function* () {
     console.info('is-first');
     yield next();
@@ -50,6 +61,7 @@ app.use((ctx, next) => __awaiter(this, void 0, void 0, function* () {
 app.use((ctx, next) => __awaiter(this, void 0, void 0, function* () {
     try {
         yield next();
+        console.info(4);
         if (ctx.status === 404 || ctx.status === 405)
             ctx.body = { code: 0, message: '无效的api请求' };
     }

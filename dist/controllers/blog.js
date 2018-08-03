@@ -15,15 +15,23 @@ class BlogController {
         return __awaiter(this, void 0, void 0, function* () {
             try {
                 const method = ctx.method, param = method === "GET" ? ctx.query : ctx.request.body;
-                const { title } = param;
+                const { title, page, pagesize, type, _id } = param;
+                console.info(type, _id, 444, { type, _id });
+                let dataer;
                 if (title) {
-                    const [count, res] = yield Promise.all([index_1.BlogModel.find({ $or: [{ title: { $regex: title, $options: "$i" } }] }).count(), index_1.BlogModel.find({ $or: [{ title: { $regex: title, $options: "$i" } }] }).sort({ _id: -1 })]);
-                    index_2.handleSuccess({ ctx, message: '成功!', result: { count, data: res } });
+                    dataer = type ? { $or: [{ title: { $regex: title, $options: "$i" } }], type } : { $or: [{ title: { $regex: title, $options: "$i" } }] };
+                }
+                else if (_id) {
+                    dataer = { _id };
                 }
                 else {
-                    const [count, res] = yield Promise.all([index_1.BlogModel.find(Object.assign({}, param)).count(), index_1.BlogModel.find(Object.assign({}, param)).sort({ _id: -1 })]);
-                    index_2.handleSuccess({ ctx, message: '成功!', result: { count, data: res } });
+                    dataer = type ? { type } : {};
                 }
+                const [count, res] = yield Promise.all([
+                    index_1.BlogModel.find(dataer).count(),
+                    index_1.BlogModel.find(dataer).sort({ _id: -1 }).limit(parseInt(pagesize)).skip(parseInt(pagesize) * (page - 1))
+                ]);
+                index_2.handleSuccess({ ctx, message: '成功!', result: { count, data: res, page: parseInt(page), pagesize } });
             }
             catch (err) {
                 index_2.handleError({ ctx, err });
