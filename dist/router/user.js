@@ -20,15 +20,17 @@ router.post('/addUser', index_1.User.addUser);
 router.post('/RemoveUser', index_1.User.RemoveUser);
 router.post('/login', index_1.User.Login);
 router.post('/imgupload', index_1.User.ImgUpload);
-const jsSHA = require('jssha');
+let crypto1 = require('crypto');
 const cachedData = {};
 const expireTime = 7200 - 60;
 const createNonceStr = () => Math.random().toString(36).substr(2, 15);
-const createTimeStamp = () => String(new Date().getTime() / 1000);
+const createTimeStamp = () => String(parseInt(`${new Date().getTime() / 1000}`, 0));
 const sign = (ticket, noncestr, timestamp, url) => {
+    console.info(ticket, noncestr, timestamp, url, '我进入了生成签名');
     const str = `jsapi_ticket=${ticket}&noncestr=${noncestr}&timestamp=${timestamp}&url=${url}`;
-    const shaObj = new jsSHA(str, 'TEXT');
-    return shaObj.getHash('SHA-1', 'HEX');
+    const hashCode = crypto1.createHash('sha1');
+    let resultCode = hashCode.update(str, 'utf8').digest('hex');
+    return resultCode;
 };
 const getToken = (url, ctx) => __awaiter(this, void 0, void 0, function* () {
     console.info('我进入了gettoken');
@@ -39,29 +41,31 @@ const getToken = (url, ctx) => __awaiter(this, void 0, void 0, function* () {
     try {
         const datainfo = yield axios_1.default.get(tokenUrl);
         console.info(datainfo, '我成功请求了');
+        return datainfo;
     }
     catch (err) {
         console.info(err, '我请求接口出错了');
+        return err;
     }
 });
-const getTicket = (url, ctx, token) => {
+const getTicket = (url, ctx, token) => __awaiter(this, void 0, void 0, function* () {
     console.info('我进入了ticket', token);
-    axios_1.default.get(`https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=${token}&type=jsapi`).then(res => {
-        const jsapi_ticket = res.data.ticket;
-        console.info('请求ticket接口成功', res.data, res.data.jsapi_ticket);
+    try {
+        const datainfo = yield axios_1.default.get(`https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=${token}&type=jsapi`);
+        const jsapi_ticket = datainfo.data.ticket;
+        console.info('请求ticket接口成功', datainfo.data.ticket, jsapi_ticket);
         const timestamp = createTimeStamp();
         const nonceStr = createNonceStr();
         const signature = sign(jsapi_ticket, nonceStr, timestamp, url);
         const item = { jsapi_ticket, nonceStr, timestamp, url, signature };
         cachedData[url] = item;
-        ctx.body = item;
-        return false;
-    }).catch(err => {
+        return item;
+    }
+    catch (err) {
         console.info(err, '获取jsapi_ticket失败');
-        ctx.body = { message: '获取jsapi_ticket失败' };
-        return false;
-    });
-};
+        return { message: '获取jsapi_ticket失败' };
+    }
+});
 router.get('/getsign', (ctx, next) => __awaiter(this, void 0, void 0, function* () {
     const url = ctx.query.url;
     console.info(url, '我是url');
@@ -81,7 +85,24 @@ router.get('/getsign', (ctx, next) => __awaiter(this, void 0, void 0, function* 
             return false;
         }
     }
-    getToken(url, ctx);
+    let tokens;
+    try {
+        const datainfo = yield getToken(url, ctx);
+        tokens = datainfo.data.access_token;
+        console.info(tokens, '我是在初始方法中的token');
+    }
+    catch (err) {
+        console.info(err, '我是初始方法中的错误token');
+    }
+    try {
+        const datainfo2 = yield getTicket(url, ctx, tokens);
+        console.info(datainfo2, '我是初始方法中的ticket');
+        ctx.body = { status: 'success', data: Object.assign({}, datainfo2, { appId: 'wxc17275a872d36e36' }) };
+    }
+    catch (err) {
+        console.info(err, '我是初始方法中的错误ticket');
+        ctx.body = { status: 'error' };
+    }
 }));
 exports.default = router;
 //# sourceMappingURL=user.js.map
